@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/style_slider.css">
+
 
 </head>
 <body>
@@ -81,11 +83,11 @@
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
 			<h2 class="xs-w100">Desarollos Destacados</h2>
 
-			<div class="CR-Desarollos-box xs-w75 md-w45 lg-w30">
+			<div class="mySlides fade CR-Desarollos-box  xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo</h4>
+				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
 				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
 				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
 				<div class="xs-w90">Área<div class="u-area-icon"></div>
@@ -96,11 +98,11 @@
 				</div>
 			</div>
 
-			<div class="CR-Desarollos-box xs-w90 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
+			<div class="mySlides fade  CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo</h4>
+				<h4 class="xs-w100">Nombre del Desarollo 2</h4>
 				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
 				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
 				<div class="xs-w90">Área<div class="u-area-icon"></div>
@@ -111,11 +113,11 @@
 				</div>
 			</div>
 
-			<div class="CR-Desarollos-box xs-w90 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
+			<div class="mySlides fade CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo</h4>
+				<h4 class="xs-w100">Nombre del Desarollo 3</h4>
 				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
 				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
 				<div class="xs-w90">Área<div class="u-area-icon"></div>
@@ -125,11 +127,19 @@
 				</div>
 				</div>
 			</div>	
-			
-			
+			<div class="xs-w100 xs-flex xs-jc-space-between">
+ 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
+				
+				
+ 				<div class="Dots xs-w25 md-w13 xs-flex xs-ai-center">
+				<span class="dot xs-w10" onclick="currentSlide(1)"></span> 
+  				<span class="dot xs-w10" onclick="currentSlide(2)"></span> 
+ 				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
+			</div>
+				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
+			</div>
 
-
-			<a href="#" class="CR-More">Ver +</a>
+			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button>
 
 		</section>
 	</article>
@@ -228,5 +238,7 @@
 	</footer>
 
 	 <script src="./js/navigation.js"></script>
+	 <script src="./js/slider.js"></script>
+
 </body>
 </html>

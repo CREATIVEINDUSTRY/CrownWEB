@@ -1,10 +1,10 @@
-(function (doc, win) {
+(function (d, w) {
 	'use strict';
 
-	var panel = doc.querySelector('.CR-Panel'),
-		panelBtn = doc.querySelector('.CR-Panel-button'),
-		hamburger = doc.querySelector('.hamburger'),
-		mq = win.matchMedia('(min-width: 64em)');
+	var panel = d.querySelector('.CR-Panel'),
+		panelBtn = d.querySelector('.CR-Panel-button'),
+		hamburger = d.querySelector('.hamburger'),
+		mq = w.matchMedia('(min-width: 64em)');
 
 	function closePanel(mq) {
 		if (mq.matches) {
@@ -22,4 +22,6 @@
 
 	closePanel(mq);
 	mq.addListener(closePanel);
+
+	
 })(document, window);
