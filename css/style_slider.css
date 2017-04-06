@@ -5,34 +5,49 @@
 /* Next & previous buttons */
 .Arrow-right, .Arrow-left {
   cursor: pointer;
- 
   bottom: 0;
   color: #808080;
   background-color: transparent;
   font-weight: bold;
   transition: 0.6s ease;
   border: 0;
-  opacity: 1;
   transition: all .3s ease;
+} 
+.CR-Description-slides button {
+  color: #FFF;
+  position: absolute;
+  top: 20%;
+  opacity: .5;
+  padding: 0 .3rem;
 }
-
 /* Position the "next button" to the right */
 .Arrow-right {
   right: 0;
 }
-
+.CR-Description-slides button:hover {
+  opacity: 1;
+}
 /* On hover, add a black background color with a little bit see-through */
 .Arrow-right:hover, .Arrow-left:hover {
   color: #020202;
 }
 
-
-
 /* The dots/bullets/indicators */
 .Dots {
   left:45%;
-  
 }
+.Dots-img div {
+  cursor:pointer;
+  margin: .5rem 0;
+  align-self: center;
+}
+.Thumbnails {
+  height: 7rem;
+  opacity: .7;
+  background-color: #020202;
+  transition: background-color 0.6s ease;
+}
+
 .dot {
   cursor:pointer;
   height: 13px;
@@ -42,11 +57,15 @@
   border-radius: 50%;
   display: flex;
   align-self: center;
-  transition: background-color 0.6s ease;
+  transition: all 0.6s ease;
 }
 
 .active, .dot:hover {
   background-color: #020202;
+}
+
+.u-opacity, .Thumbnails:hover  {
+  opacity: 1;
 }
 
 /* Fading animation */

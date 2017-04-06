@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/style_slider.css">
+    <link rel="stylesheet" href="./css/formularios.css">
 	<link rel="stylesheet" href="./css/footer.css">
 
 
@@ -68,85 +68,61 @@
 
 		</section>
 	</header>
-<!-- Home Video -->
-    <article class="CR-HomeBackground  container-fluid">
-		<div class="CR-HomeFilter container xs-w50 xl-w35 xs-ac-center">
-			<form method="POST" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
-				<select name="" id="" placeholder="Localizacion" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Compra/Venta" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90 lg-w32"></select>
-				<button class="xs-w50">Enviar</button>
-			</form>
+<!-- map contacto -->
+    <main class="CR-Contacto  container-fluid u-margin-top">
+        <!-- mapa -->
+        <h2 class="container xs-w100">Contacto</h2>
+		<div id="gmaps" class="CR-Contacto-map container xs-w90 xs-flex xs-jc-flex-end"></div>
+        <!-- datos de contacto -->
+        <article class="CR-Contacto-data container xs-w90">
+            <section class="CR-Contacto-location xs-w75 xs-flex xs-flex-wrap">
+                <div class="CR-Contacto-locationIcon xs-w100 lg-w10"><i class="fa fa-map-marker fa-4x"></i></div>
+                <div class="CR-Contacto-locationText xs-w100 lg-w75">
+                    <h4>Ubicación</h4>
+                    <p class="xs-w95">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci.</p>
+                </div>
+            </section>
+            <div class="xs-w100 u-line"></div>
+            <section class="CR-Contacto-phone xs-w75 xs-flex xs-flex-wrap">
+                <div class="CR-Contacto-phoneIcon xs-w100 lg-w10"><i class="fa fa-phone fa-4x"></i></div>
+                <div class="CR-Contacto-phoneText xs-w100 lg-w75">
+                    <h4>Télefonos</h4>
+                    <p class="xs-w95">+00 000 0000 0000</p>
+                </div>
+            </section>
+            <div class="xs-w100 u-line"></div>
+        </article>
+        <!-- formulario de contacto -->
+        <h2 class="CR-Form container xs-w100">Contacta con Nosotros</h2>
+        <article class="CR-Form container xs-w90">
+        <h4>¿Tienes alguna duda? Escríbenos a través del formulario</h4>
+
+        <form action="" class="container xs-w75 lg-w55">
+		<div class="CR-Form-input xs-w90">
+			<input type="text" name="nombre" title="Tu nombre" placeholder="Escribe tu nombre" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+" class="xs-w100" required>
 		</div>
-		 <video src="./media/In-And-Out.mp4" class="CR-HomeBackground-video  u-xs-none  u-lg-block"  autoplay muted loop></video>
-	</article>
-<!--Slider Desarrollos -->
-	<article class="CR-Desarollos container xs-w90 md-flex md-flex-wrap">
-		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-			<h2 class="xs-w100">Desarollos Destacados</h2>
+		<div class="CR-Form-input xs-w90">
+			<input type="email" name="email" title="Tu email" placeholder="Escribe tu email" pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}" class="xs-w100"  required>
+		</div class="CR-Form-input xs-w90">
+		<div class="CR-Form-input xs-w90">
+			<input type="text" name="asunto" title="Asunto a tratar" placeholder="Asunto a tratar" class="xs-w100" required>
+		</div>
+		<div class="CR-Form-input xs-w90">
+			<textarea name="comentarios" title="Tus comentarios" placeholder="Escribe tus comentarios" rows="15" class="xs-w100" required></textarea>
+		</div>
+		<div class="CR-Form-button xs-w90 xs-flex xs-jc-flex-end">
+			<input class="button xs-w30" type="submit" value="Enviar">
+		</div>
+		<div class="preload  hidden">
+			<i class="fa  fa-refresh  fa-spin  fa-2x"></i>
+		</div>
+		<div class="message  hidden">
+			<p>Muchas gracias por tus comentarios</p>
+		</div>
+	</form>
+    </article>
+	</main>
 
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="mySlides fade  CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 2</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 3</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
-			<div class="xs-w100 xs-flex xs-jc-space-between">
- 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
-				
-				
- 				<div class="Dots xs-w25 md-w13 xs-flex xs-ai-center">
-				<span class="dot xs-w10" onclick="currentSlide(1)"></span> 
-  				<span class="dot xs-w10" onclick="currentSlide(2)"></span> 
- 				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
-			</div>
-				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
-			</div>
-
-			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button>
-
-		</section>
-	</article>
-
-	
 <!-- footer -->
 	<footer class="CR-Contact container-fluid" id="contacto">
 		<!-- redes sociales -->
@@ -240,7 +216,7 @@
 	</footer>
 
 	 <script src="./js/navigation.js"></script>
-	 <script src="./js/slider.js"></script>
+	 <script src="./js/contacto.js"></script>
 
 </body>
 </html>

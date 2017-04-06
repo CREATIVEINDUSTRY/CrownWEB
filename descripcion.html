@@ -3,15 +3,16 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Crown Bienes Raices</title>
+    <title>Crown Bienes Raices - Propiedades</title>
     <meta name="description" content="Crown">
-	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/style_slider.css">
+    <link rel="stylesheet" href="./css/style_slider.css">
+	<link rel="stylesheet" href="./css/filter.css">
 	<link rel="stylesheet" href="./css/footer.css">
 
 
@@ -68,24 +69,66 @@
 
 		</section>
 	</header>
-<!-- Home Video -->
-    <article class="CR-HomeBackground  container-fluid">
-		<div class="CR-HomeFilter container xs-w50 xl-w35 xs-ac-center">
+
+<main class="CR-Main container u-margin-top xs-w100 xs-flex xs-flex-wrap">
+<!-- Aside Filter -->
+    <div class="xs-w100 xs-flex xs-flex-wrap">
+    <aside class="CR-Filter xs-w90 md-w32 lg-w25">
+        
 			<form method="POST" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
-				<select name="" id="" placeholder="Localizacion" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Compra/Venta" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90 lg-w32"></select>
+				<select name="" id="" placeholder="Localizacion" class="xs-w90"></select>
+				<select name="" id="" placeholder="Compra/Venta" class="xs-w90"></select>
+				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90"></select>
 				<button class="xs-w50">Enviar</button>
 			</form>
-		</div>
-		 <video src="./media/In-And-Out.mp4" class="CR-HomeBackground-video  u-xs-none  u-lg-block"  autoplay muted loop></video>
-	</article>
-<!--Slider Desarrollos -->
-	<article class="CR-Desarollos container xs-w90 md-flex md-flex-wrap">
-		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-			<h2 class="xs-w100">Desarollos Destacados</h2>
 
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 md-w45 lg-w30">
+    </aside>
+<!--Description -->
+	<article class="CR-Description xs-w90 md-w65 lg-w73 md-flex md-flex-wrap">
+	
+            <div class="CR-Description-box  xs-w90">
+			    <h2 class="xs-w100">Nombre de la Propiedad</h2>
+                <div class="CR-Description-slides xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
+                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
+                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
+                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
+                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
+ 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
+				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
+				</div>
+ 			<div class="Dots-img xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
+				<div class="xs-w24" onclick="currentSlide(1)">
+                    <img src="" alt="" class="Thumbnails xs-w100">
+                </div> 
+  				<div class="xs-w24" onclick="currentSlide(2)">
+                    <img src="" alt="" class="Thumbnails xs-w100">
+                </div> 
+ 				<div class="xs-w24" onclick="currentSlide(3)">
+                    <img src="" alt="" class="Thumbnails xs-w100">
+                </div> 
+               <div class="xs-w24" onclick="currentSlide(4)">
+                    <img src="" alt="" class="Thumbnails xs-w100">
+                </div> 
+			</div>
+            </div>
+                
+				<div class="CR-Description-boxTitle xs-w90">Ubicación</div>
+				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
+				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
+				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
+				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
+				<div class="xs-w90 xs-flex xs-flex-wrap">Área<div class="u-area-icon"></div>
+				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x"></i></div>
+				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
+				</div>
+				</div>
+				</div>
+			</div>
+			</div>
+<!-- propiedades relacionadas -->
+	    <section class="xs-w100 md-flex md-flex-wrap  md-jc-space-between">
+            <h2 class="xs-w100">Propiedades Relacionadas</h2>
+            <div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
@@ -100,7 +143,7 @@
 				</div>
 			</div>
 
-			<div class="mySlides fade  CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
+			<div class="CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
@@ -115,7 +158,7 @@
 				</div>
 			</div>
 
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
+			<div class="CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
 				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
 				<img src="" alt="" class="CR-Desarollos-img xs-w100">
 				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
@@ -129,23 +172,12 @@
 				</div>
 				</div>
 			</div>	
-			<div class="xs-w100 xs-flex xs-jc-space-between">
- 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
-				
-				
- 				<div class="Dots xs-w25 md-w13 xs-flex xs-ai-center">
-				<span class="dot xs-w10" onclick="currentSlide(1)"></span> 
-  				<span class="dot xs-w10" onclick="currentSlide(2)"></span> 
- 				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
-			</div>
-				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
-			</div>
-
-			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button>
+			
+            <button href="#" class="CR-More xs-w100 xs-jc-flex-end">Ver +</button>
 
 		</section>
 	</article>
-
+</main>
 	
 <!-- footer -->
 	<footer class="CR-Contact container-fluid" id="contacto">
@@ -175,6 +207,7 @@
 		<div class="CR-Contact-logo xs-w35  lg-w25 " href="#">
     
 		</div>  
+     
 		<!-- Menu Footer -->
 		<nav class="CR-Contact-nav xs-w60 lg-w73 xs-flex xs-flex-wrap xs-jc-space-between">
 				<ul class="CR-Contact-listItem xs-w45 lg-w23">
@@ -240,7 +273,6 @@
 	</footer>
 
 	 <script src="./js/navigation.js"></script>
-	 <script src="./js/slider.js"></script>
-
+     <script src="./js/slider_descrip.js"></script>
 </body>
 </html>
