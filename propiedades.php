@@ -53,13 +53,13 @@
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="#Home" class="CR-Menu-link">Home</a>
+						<a href="index.php" class="CR-Menu-link">Home</a>
 					</li>
 					<li class="CR-Menu-item">
 						<a href="#" class="CR-Menu-link">Proyectos</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Contacto</a>
+						<a href="contacto.html" class="CR-Menu-link">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -73,9 +73,22 @@
     <aside class="CR-Filter xs-w90 md-w32 lg-w25">
         
 			<form method="POST" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
-				<select name="" id="" placeholder="Localizacion" class="xs-w90"></select>
-				<select name="" id="" placeholder="Compra/Venta" class="xs-w90"></select>
-				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90"></select>
+				<select name="locationF" id="" placeholder="Localizacion" class="xs-w90">
+                    <?php 
+                        include 'FilterLoader.php'; 
+                        filterLoader('1');
+                    ?>
+                </select>
+				<select name="operationF" id="" placeholder="Compra/Venta" class="xs-w90">
+                    <?php 
+                        filterLoader('2');
+                    ?>
+                </select>
+				<select name="typeF" id="" placeholder="Tipo de Propiedad" class="xs-w90">
+                    <?php 
+                        filterLoader('3');
+                    ?>
+                </select>
 				<button class="xs-w50">Enviar</button>
 			</form>
 
@@ -84,96 +97,10 @@
 	<article class="CR-Desarollos container xs-w90 md-w65 lg-w75 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
 			<h2 class="xs-w100">Propiedades en la Zona</h2>
-
-			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 2</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 3</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
-			
-            <div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 4</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
-
-            <div class="CR-Desarollos-box xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 5</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
-
-            <div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 6</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
+            
+            <?php 
+                include 'filterIterator.php'; 
+            ?>
 
 		</section>
 	</article>

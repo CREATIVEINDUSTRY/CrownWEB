@@ -57,10 +57,10 @@
 						<a href="#Home" class="CR-Menu-link">Home</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Proyectos</a>
+						<a href="propiedades.php" class="CR-Menu-link">Proyectos</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Contacto</a>
+						<a href="contacto.html" class="CR-Menu-link">Contacto</a>
 					</li>
 				</ul>
 			</nav>
@@ -71,10 +71,24 @@
 <!-- Home Video -->
     <article class="CR-HomeBackground  container-fluid">
 		<div class="CR-HomeFilter container xs-w50 xl-w35 xs-ac-center">
-			<form method="POST" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
-				<select name="" id="" placeholder="Localizacion" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Compra/Venta" class="xs-w90 lg-w32"></select>
-				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90 lg-w32"></select>
+			<form method="POST" action="propiedades.php" id="filterForm" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
+				<select name="locationF" id="locationF" placeholder="Localizacion" class="xs-w90 lg-w32">
+                    <?php 
+                        include 'FilterLoader.php'; 
+                        filterLoader('1');
+                    ?>
+
+                </select>
+				<select name="operationF" id="operationF" placeholder="Compra/Venta" class="xs-w90 lg-w32">
+                    <?php 
+                        filterLoader('2');
+                    ?>
+                </select>
+				<select name="typeF" id="typeF" placeholder="Tipo de Propiedad" class="xs-w90 lg-w32">
+                    <?php 
+                        filterLoader('3');
+                    ?>
+                </select>
 				<button class="xs-w50">Enviar</button>
 			</form>
 		</div>
@@ -83,52 +97,10 @@
 <!--Slider Desarrollos -->
 	<article class="CR-Desarollos container xs-w90 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-			<h2 class="xs-w100">Desarollos Destacados</h2>
-
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="mySlides fade  CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 2</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="mySlides fade CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 3</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
+        <h2 class="xs-w100">Desarollos Destacados</h2>;
+			
+            <?php include 'mainItemLoader.php'; ?>
+            
 			<div class="xs-w100 xs-flex xs-jc-space-between">
  				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
 				
@@ -241,6 +213,9 @@
 
 	 <script src="./js/navigation.js"></script>
 	 <script src="./js/slider.js"></script>
+    
+  
+
 
 </body>
 </html>
