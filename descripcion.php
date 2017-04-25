@@ -75,10 +75,23 @@
     <div class="xs-w100 xs-flex xs-flex-wrap">
     <aside class="CR-Filter xs-w90 md-w32 lg-w25">
         
-			<form method="POST" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
-				<select name="" id="" placeholder="Localizacion" class="xs-w90"></select>
-				<select name="" id="" placeholder="Compra/Venta" class="xs-w90"></select>
-				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90"></select>
+			<form method="POST" action="propiedades.php" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
+				<select name="" id="" placeholder="Localizacion" class="xs-w90">
+                    <?php 
+                        include 'FilterLoader.php'; 
+                        filterLoader('1');
+                    ?>
+                </select>
+				<select name="" id="" placeholder="Compra/Venta" class="xs-w90">
+                    <?php 
+                        filterLoader('2');
+                    ?>
+                </select>
+				<select name="" id="" placeholder="Tipo de Propiedad" class="xs-w90">
+                    <?php 
+                        filterLoader('3');
+                    ?>
+                </select>
 				<button class="xs-w50">Enviar</button>
 			</form>
 
@@ -89,7 +102,7 @@
             <div class="CR-Description-box  xs-w90">
 			    <h2 class="xs-w100">Nombre de la Propiedad</h2>
                 <div class="CR-Description-slides xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
-                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
+                <img src="http://www.myhomeimprovementmag.com/wp-content/uploads/2016/10/71.jpg" alt="" class="mySlides fade CR-Description-img xs-w100">
                 <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
                 <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
                 <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
@@ -98,7 +111,7 @@
 				</div>
  			<div class="Dots-img xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
 				<div class="xs-w24" onclick="currentSlide(1)">
-                    <img src="" alt="" class="Thumbnails xs-w100">
+                    <img src="http://www.myhomeimprovementmag.com/wp-content/uploads/2016/10/71.jpg" alt="" class="Thumbnails xs-w100">
                 </div> 
   				<div class="xs-w24" onclick="currentSlide(2)">
                     <img src="" alt="" class="Thumbnails xs-w100">
@@ -112,17 +125,9 @@
 			</div>
             </div>
                 
-				<div class="CR-Description-boxTitle xs-w90">Ubicación</div>
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90 xs-flex xs-flex-wrap">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
+				<?php 
+                        include 'itemSetter.php'; 
+                ?>
 			</div>
 			</div>
 <!-- propiedades relacionadas -->
