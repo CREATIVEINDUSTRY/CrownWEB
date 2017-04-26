@@ -10,14 +10,14 @@ body {
     top: 0;
 	width: 100vw;
 	height:100vh;
-    background-image: url(../media/In-And-Out.jpg);
+    background-image: url(../media/DJI_0021.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 .CR-HomeFilter {
     position: absolute;
-    top: 55%;
+    top: 50%;
     right: 10%;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 1rem;
@@ -31,6 +31,7 @@ body {
 }
 
 .CR-HomeFilter form button {
+    cursor: pointer;
     padding: .5rem;
     background-color: #CB9E2C;
     color: #FFF;
@@ -38,16 +39,33 @@ body {
     font-weight: bold;
     border: none;
 }
-
-
+.CR-HomeBanner {
+    position: absolute;
+    top: 80%;
+    background-color: rgba(203, 158, 44, .7);
+    padding: 2rem ;
+    color:#FFF;
+    text-align: center;
+}
+.CR-HomeBanner h4 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.CR-HomeBanner h3 {
+    font-weight: 400;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.CR-HomeBanner h3 span {
+    font-weight: 600;
+    font-size: 1.9rem;
+}
 .CR-HomeBackground-video {
     width: inherit;
     height: auto;
 }
 .CR-Desarollos {
-    position: relative;
-    margin: 0 auto;
-    
+    margin: 1.5rem auto;
 }
 .CR-Desarollos h2 {
     text-align: center;
@@ -56,12 +74,17 @@ body {
 }
 
 .CR-Desarollos-box {
+    text-decoration: none;
     position: relative;
     background-color: #FFF;
     border-radius: .5rem;
     box-shadow: 1px 1px 7px #808080;
     margin: 1rem auto;
     padding-bottom: 1rem;
+}
+
+.CR-Desarollos-box a {
+    text-decoration: none;
 }
 .CR-Desarollos-img {
     background-color: #333;
@@ -80,6 +103,7 @@ body {
 }
 .CR-Desarollo-content {
     margin: .5rem auto;
+    color: #222;
 }
 
 .CR-Description {
@@ -130,6 +154,7 @@ body {
     margin: .2rem;
 }
 .CR-More {
+    cursor: pointer;
     color: #808080;
     background-color: transparent;
     position: relative;
@@ -141,6 +166,70 @@ body {
 }
 .CR-More:hover {
     font-style: italic;
+}
+
+.CR-ServiceSlider {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.CR-ServiceDots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+}
+.CR-ServiciosBox {
+    margin: 1rem auto;
+    text-align: justify;
+}
+
+.CR-ServiciosBox p {
+    margin: .5rem auto;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.CR-ServiceLine {
+    display: block;
+    width: 100%;
+    height: .1rem;
+    background-color: #CB9E2C;
+}
+.CR-ServiciosBoxDes {
+    background-color: rgba(128, 128, 128, .3);
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px #808080;
+    font-size: 1.1rem;
+}
+
+.Clients {
+    margin-top: 2rem;
+}
+.List {
+    margin: 2rem auto;
+    font-size: 1.1rem;
+}
+.List span {
+    font-size: .8rem;
+}
+.Publicar {
+    text-align: center;
+}
+.Publicar h3 {
+    font-size: 1.8rem;
+    margin: 2rem auto;
+}
+
+.Publicar .button {
+    margin-bottom: 2rem;
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
 }
 .CR-Contacto-map { margin-top: 1rem;}
 
@@ -165,6 +254,15 @@ body {
 .CR-Contacto-phone {
     margin: 1rem auto;
 }
+.CR-App {
+    margin-top: 15rem;
+}
+.CR-AppImg {
+    height: 720px;
+    background-image: url(../img/app.jpg);
+    background-repeat: no-repeat;
+	background-size: contain;
+}
 .u-xs-none { display: none; }
 
 .u-xs-block { display: block; }
@@ -182,6 +280,7 @@ body {
 
 .u-line { border-bottom: .1rem dashed #808080; }
 
+
 @media screen and (min-width: 30em){ 
     .u-sm-none { display: none; }
 
@@ -189,6 +288,8 @@ body {
 }
 
 @media screen and (min-width: 48em){ 
+    .CR-HomeBanner { top: 85%;}
+    
     .u-md-none { display: none; }
 
     .u-md-block { display: block; }
@@ -196,9 +297,30 @@ body {
 }
 
 @media screen and (min-width: 64em) {
-    .HomeBackground { height: auto; }
+    .CR-HomeBackground { 
+        height: auto; 
+        background-image: none;
+    }
 
+    .CR-HomeFilter { top:45%; }
+    
+    .CR-HomeBanner {
+        top: 80%;
+        text-align: left;
+    }
+    .CR-ServiceImg {
+        max-height: 70vh;
+    }
     .u-lg-none { display: none; }
 
     .u-lg-block { display: block; }
+}
+
+@media screen and (min-width: 106em) {
+    .CR-HomeBackground { 
+        margin-top: -15rem;
+        height: auto; 
+        background-image: none;
+    }
+
 }

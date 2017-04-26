@@ -4,7 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Crown Bienes Raices - Propiedades</title>
+<<<<<<< HEAD
+    <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
+ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
+=======
     <meta name="description" content="Crown">
+>>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
     <link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,7 +45,11 @@
 				</ul>
 			</nav>
   <!-- Menu de Navegación -->
+<<<<<<< HEAD
+		<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
+=======
 			<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
+>>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 			<h1 class="CR-Logo lg-w20">
 				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
@@ -61,14 +70,25 @@
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
+<<<<<<< HEAD
+						<a href="contacto.html" class="CR-Menu-link">Publica</a>
+					</li>
+                    <li class="CR-Menu-item">
+=======
 						<a href="contacto.html" class="CR-Menu-link">Publicar</a>
 					</li>
 					<li class="CR-Menu-item">
+>>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 						<a href="app.html" class="CR-Menu-link">App</a>
 					</li>
 				</ul>
 			</nav>
 		</article>
+<<<<<<< HEAD
+
+		</section>
+=======
+>>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 	</header>
 
 <main class="CR-Main container u-margin-top xs-w100 xs-flex xs-flex-wrap">

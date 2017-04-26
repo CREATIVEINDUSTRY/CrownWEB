@@ -4,7 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Crown Bienes Raices</title>
-    <meta name="description" content="Crown">
+
+    <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
+ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmobiliario">
+
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -60,9 +63,11 @@
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="contacto.html" class="CR-Menu-link">Publicar</a>
+
+						<a href="contacto.html" class="CR-Menu-link">Publica</a>
 					</li>
-					<li class="CR-Menu-item">
+                    <li class="CR-Menu-item">
+
 						<a href="app.html" class="CR-Menu-link">App</a>
 					</li>
 				</ul>
@@ -73,8 +78,10 @@
 	</header>
 <!-- Home Video -->
     <article class="CR-HomeBackground  container-fluid">
+
 		<div class="CR-HomeFilter container xs-w50 xl-w35 xs-ac-center">
 			<form method="POST" action="propiedades.php" id="filterForm" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
+
 				<select name="locationF" id="locationF" placeholder="Localizacion" class="xs-w90 lg-w32">
                     <?php 
                         include 'FilterLoader.php'; 
@@ -95,12 +102,23 @@
 				<button class="xs-w50">Enviar</button>
 			</form>
 		</div>
-		 <video src="./media/In-And-Out.mp4" class="CR-HomeBackground-video  u-xs-none  u-lg-block"  autoplay muted loop></video>
+
+		<div class="CR-HomeBanner  xs-w100 xs-ac-center">
+            <div class="container">
+			<h4> Primera y única inmobiliaria especializada en Bosque Real</h4>
+			<h3>con más de <span>25 años</span> de experiencia en el ramo inmobiliario</h3>
+            </div>
+		</div>
+		 <video src="./media/DJI_0021.mp4" class="CR-HomeBackground-video  u-xs-none  u-lg-block"  autoplay muted loop></video>
+
 	</article>
 <!--Slider Desarrollos -->
 	<article class="CR-Desarollos container xs-w90 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-        <h2 class="xs-w100">Desarollos Destacados</h2>;
+
+        <h2 class="xs-w100">Oportunidades de Inversión</h2>
+
+
 			
             <?php include 'mainItemLoader.php'; ?>
             
@@ -216,9 +234,12 @@
 
 	 <script src="./js/navigation.js"></script>
 	 <script src="./js/slider.js"></script>
+<<<<<<< HEAD
+=======
     
   
 
+>>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 
 </body>
 </html>

@@ -4,21 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Crown Bienes Raices</title>
-    <meta name="description" content="Crown">
+    <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
+ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/formularios.css">
+	<link rel="stylesheet" href="./css/formularios.css">
+	<link rel="stylesheet" href="./css/style_slider.css">
 	<link rel="stylesheet" href="./css/footer.css">
 
 
 </head>
 <body>
     <header class="CR-Header container-fluid">
-		 <!-- Menu Redes Sociales -->
+<!-- Menu Redes Sociales -->
 			<nav class="CR-MenuRS xs-w100">
 				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end">
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
@@ -38,10 +40,10 @@
 					</li>
 				</ul>
 			</nav>
-  <!-- Menu de Navegación -->
+<!-- Menu de Navegación -->
 		<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
 			<h1 class="CR-Logo lg-w20">
-				<a href="#Home" class="CR-Logo-link">Logo</a>
+				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
 			<span class="CR-Panel-button">
 				<button class="hamburger  hamburger--elastic" type="button">
@@ -54,50 +56,32 @@
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="#Home" class="CR-Menu-link">Home</a>
+						<a href="servicios.html" class="CR-Menu-link">Servicios</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Proyectos</a>
+						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Contacto</a>
-					</li> 
+						<a href="contacto.html" class="CR-Menu-link">Publica</a>
+					</li>
+                    <li class="CR-Menu-item">
+						<a href="app.html" class="CR-Menu-link">App</a>
+					</li>
 				</ul>
 			</nav>
 		</article>
 
 		</section>
 	</header>
-<!-- map contacto -->
+<!-- contacto -->
     <main class="CR-Contacto  container-fluid u-margin-top">
-        <!-- mapa -->
-        <h2 class="container xs-w100">Contacto</h2>
-		<div id="gmaps" class="CR-Contacto-map container xs-w90 xs-flex xs-jc-flex-end"></div>
-        <!-- datos de contacto -->
-        <article class="CR-Contacto-data container xs-w90">
-            <section class="CR-Contacto-location xs-w75 xs-flex xs-flex-wrap">
-                <div class="CR-Contacto-locationIcon xs-w100 lg-w10"><i class="fa fa-map-marker fa-4x"></i></div>
-                <div class="CR-Contacto-locationText xs-w100 lg-w75">
-                    <h4>Ubicación</h4>
-                    <p class="xs-w95">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci.</p>
-                </div>
-            </section>
-            <div class="xs-w100 u-line"></div>
-            <section class="CR-Contacto-phone xs-w75 xs-flex xs-flex-wrap">
-                <div class="CR-Contacto-phoneIcon xs-w100 lg-w10"><i class="fa fa-phone fa-4x"></i></div>
-                <div class="CR-Contacto-phoneText xs-w100 lg-w75">
-                    <h4>Télefonos</h4>
-                    <p class="xs-w95">+00 000 0000 0000</p>
-                </div>
-            </section>
-            <div class="xs-w100 u-line"></div>
-        </article>
-        <!-- formulario de contacto -->
-        <h2 class="CR-Form container xs-w100">Contacta con Nosotros</h2>
-        <article class="CR-Form container xs-w90">
-        <h4>¿Tienes alguna duda? Escríbenos a través del formulario</h4>
-
-        <form action="" class="container xs-w75 lg-w55">
+<!-- formulario de publicar -->
+		<div class="container xs-flex xs-flex-wrap">
+		
+        <article class="CR-Form container xs-w90 lg-w70">
+       	<h2>Anuncia tu Propiedad</h2>
+        <div class="CR-ServiceLine"></div>
+        <form action="" class="container xs-w75 lg-w75">
 		<div class="CR-Form-input xs-w90">
 			<input type="text" name="nombre" title="Tu nombre" placeholder="Escribe tu nombre" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+" class="xs-w100" required>
 		</div>
@@ -108,7 +92,13 @@
 			<input type="text" name="asunto" title="Asunto a tratar" placeholder="Asunto a tratar" class="xs-w100" required>
 		</div>
 		<div class="CR-Form-input xs-w90">
-			<textarea name="comentarios" title="Tus comentarios" placeholder="Escribe tus comentarios" rows="15" class="xs-w100" required></textarea>
+			<input type="number" name="phone" title="Teléfono" placeholder="Teléfono" class="xs-w100" required>
+		</div>
+		<div class="CR-Form-input xs-w90">
+			<input type="text" name="tipo_propiedad" title="Tipo de Propiedad" placeholder="Tipo de Propiedad" class="xs-w100" required>
+		</div>
+		<div class="CR-Form-input xs-w90">
+			<textarea name="descripcion" title="Descripción de la Propiedad" placeholder="Descripción de la Propiedad" rows="15" class="xs-w100" required></textarea>
 		</div>
 		<div class="CR-Form-button xs-w90 xs-flex xs-jc-flex-end">
 			<input class="button xs-w30" type="submit" value="Enviar">
@@ -121,6 +111,32 @@
 		</div>
 	</form>
     </article>
+<!-- mapa -->
+		<div class="xs-w100 lg-w30">
+        <h2 class="container xs-w100">Contacto</h2>
+		<div id="gmaps" class="CR-Contacto-map container xs-w90 xs-flex xs-jc-flex-end"></div>
+        <!-- datos de contacto -->
+        <article class="CR-Contacto-data container xs-w90">
+            <section class="CR-Contacto-location xs-w75 xs-flex xs-flex-wrap">
+                <div class="CR-Contacto-locationIcon xs-w100 lg-w25"><i class="fa fa-map-marker fa-4x"></i></div>
+                <div class="CR-Contacto-locationText xs-w100 lg-w75">
+                    <h4>Ubicación</h4>
+                    <p class="xs-w95">Plaza Comercial El Trípode, Boulevard Bosque Real, Mz V, Lote 85, Local 16. Huixquilucan. Estado de México CP: 52774</p>
+                </div>
+            </section>
+            <div class="xs-w100 u-line"></div>
+            <section class="CR-Contacto-phone xs-w75 xs-flex xs-flex-wrap">
+                <div class="CR-Contacto-phoneIcon xs-w100 lg-w25"><i class="fa fa-phone fa-4x"></i></div>
+                <div class="CR-Contacto-phoneText xs-w100 lg-w75">
+                    <h4>Télefonos</h4>
+                    <p class="xs-w95">+00 000 0000 0000</p>
+                </div>
+            </section>
+            <div class="xs-w100 u-line"></div>
+        </article>
+		</div>
+ 
+	</div>
 	</main>
 
 <!-- footer -->
