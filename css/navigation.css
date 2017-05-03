@@ -23,9 +23,16 @@
 
 .CR-Menu-itemRS {
 	list-style: none;
-	text-align: right;
+	text-align: left;
 }
 
+.CR-Menu-itemRS p, .CR-Menu-itemRS p a {
+	color: #FFF;
+	text-align: left;
+}
+.CR-Menu-itemRS p span {
+	font-weight: bold;
+}
 .CR-Menu-linkRS {
 	color: #020202;
 	text-decoration: none;
@@ -33,6 +40,8 @@
 	margin: auto;
 	text-align: right;
 }
+
+
 
 .CR-Menu-linkRS:hover{
 	color: #CB9E2C;

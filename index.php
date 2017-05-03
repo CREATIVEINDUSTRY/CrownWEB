@@ -23,7 +23,10 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
     <header class="CR-Header container-fluid">
 <!-- Menu Redes Sociales -->
 			<nav class="CR-MenuRS xs-w100">
-				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end">
+				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end xs-ai-center">
+					<li class="CR-Menu-itemRS xs-w55 lg-w80">
+						<p>Servicio al Cliente: <span>9015 3623</span> / mail:<a href="mailto:" class="CR-Menu-linkRS xs-w20">mail@</a></p>
+					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-facebook fa-2x"></a>
 					</li>
@@ -36,13 +39,10 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-youtube-play fa-2x"></a>
 					</li>
-					<li class="CR-Menu-itemRS xs-w10 lg-w5">
-						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-whatsapp fa-2x"></a>
-					</li>
 				</ul>
 			</nav>
 <!-- Menu de Navegación -->
-		<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
+	<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
 			<h1 class="CR-Logo lg-w20">
 				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
@@ -63,12 +63,13 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-
-						<a href="contacto.html" class="CR-Menu-link">Publica</a>
+						<a href="contacto.html" class="CR-Menu-link">Vende tu Propiedad</a>
 					</li>
                     <li class="CR-Menu-item">
-
 						<a href="app.html" class="CR-Menu-link">App</a>
+					</li>
+					<li class="CR-Menu-item">
+						<a href="#" class="CR-Menu-link">Intranet</a>
 					</li>
 				</ul>
 			</nav>
@@ -109,7 +110,10 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 			<h3>con más de <span>25 años</span> de experiencia en el ramo inmobiliario</h3>
             </div>
 		</div>
-		 <video src="./media/DJI_0021.mp4" class="CR-HomeBackground-video  u-xs-none  u-lg-block"  autoplay muted loop></video>
+		 <video class="CR-HomeBackground-video  u-xs-none  u-lg-block" poster="./media/DJI_0021.png" autoplay muted loop>
+			<source src="./media/DJI_0021.webm" type="video/webm">
+			<source src="./media/DJI_0021.mp4" type="video/mp4">
+		 </video>
 
 	</article>
 <!--Slider Desarrollos -->
@@ -118,11 +122,68 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 
         <h2 class="xs-w100">Oportunidades de Inversión</h2>
 
+			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
+				<div class="CR-Desarollos-boxTitle xs-w100">Orun Palace</div>
+				<div class="mySlides fade xs-w100">
+            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
+				</div>
+        		<div class="mySlides fade xs-w100">
+            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
+				</div>
+         		<div class="mySlides fade xs-w100">
+            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
+				</div>
 
+				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
+				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
+				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
+				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
+				<div class="xs-w90">Área<div class="u-area-icon"></div>
+				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
+				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
+				</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
+				<div class="CR-Desarollos-boxTitle xs-w100">Agor Interlomas</div>
+
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
+				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
+				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
+				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
+				<div class="xs-w90">Área<div class="u-area-icon"></div>
+				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
+				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
+				</div>
+				</div>
+				</div>
+			</div>
+
+			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
+				<div class="CR-Desarollos-boxTitle xs-w100">Plaza Dolmen</div>
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
+				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
+				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
+				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
+				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
+				<div class="xs-w90">Área<div class="u-area-icon"></div>
+				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
+				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
+				</div>
+				</div>
+				</div>
+			</div>
 			
-            <?php include 'mainItemLoader.php'; ?>
+         <!--   <?php include 'mainItemLoader.php'; ?> -->
             
-			<div class="xs-w100 xs-flex xs-jc-space-between">
+		<!--	<div class="xs-w100 xs-flex xs-jc-space-between">
  				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
 				
 				
@@ -132,9 +193,9 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
  				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
 			</div>
 				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
-			</div>
+			</div> 
 
-			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button>
+			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button> -->
 
 		</section>
 	</article>
@@ -234,12 +295,5 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 
 	 <script src="./js/navigation.js"></script>
 	 <script src="./js/slider.js"></script>
-<<<<<<< HEAD
-=======
-    
-  
-
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
-
 </body>
 </html>

@@ -178,8 +178,33 @@ body {
     bottom: 1rem;
     left: 50%;
 }
+.CR-Fondo {
+    background-color: rgba(128, 128, 128, 1);
+} 
+
+.CR-ServiciosBanner {
+    padding: 2rem 0;
+    color: #FFF;
+}
+
+.CR-ServiciosBanner div img {
+    height: 8rem;
+}
+.CR-ServiciosBanner div h4 {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.CR-ServiciosBanner div h3 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    text-align: right;
+}
+.u-botton {
+    margin-right: 5rem;
+}
 .CR-ServiciosBox {
-    margin: 1rem auto;
+    margin: 2rem auto;
     text-align: justify;
 }
 
@@ -194,32 +219,100 @@ body {
     height: .1rem;
     background-color: #CB9E2C;
 }
+.CR-ServiciosBoxList {
+    margin: auto;
+    line-height: 1.5rem;
+}
 .CR-ServiciosBoxDes {
     background-color: rgba(128, 128, 128, .3);
     padding: 2rem;
     border-radius: .5rem;
     box-shadow: 1px 1px 7px #808080;
-    font-size: 1.1rem;
 }
-
+.CR-ServiciosImg {
+    margin: .5rem;
+}
+.CR-ServiciosImgPromo {
+    background-image: url(../img/promo.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgDeco {
+    background-image: url(../img/deco.JPG);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgProy {
+    background-image: url(../img/2909.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgCons {
+    background-image: url(../img/worker.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgLic {
+    background-image: url(../img/gestion.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgAse {
+    background-image: url(../img/ase.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosList {
+    margin: 1rem;
+    line-height: 1.5rem;
+}
 .Clients {
     margin-top: 2rem;
 }
+.ClientsBox {
+    margin: 1rem auto;
+}
 .List {
-    margin: 2rem auto;
-    font-size: 1.1rem;
+    margin: .8rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    
 }
 .List span {
     font-size: .8rem;
+    font-weight: lighter;
 }
+
 .Publicar {
     text-align: center;
+    background-image:  url('../img/trans.png'),url('../img/2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    color: #FFF;
+    margin: 2rem 0;
+
 }
 .Publicar h3 {
     font-size: 1.8rem;
     margin: 2rem auto;
+    text-shadow:  1px 2px 5px #333;
+    font-weight: lighter; 
 }
-
+.Publicar h4 {
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    text-shadow:  1px 2px 5px #333; 
+}
 .Publicar .button {
     margin-bottom: 2rem;
     padding: .5rem;
@@ -230,6 +323,11 @@ body {
     border: none;
     text-decoration: none;
     text-align: center;
+}
+.Publicar .button:hover {
+    background-color: #808080;
+    color: #FFF;
+
 }
 .CR-Contacto-map { margin-top: 1rem;}
 
@@ -257,21 +355,46 @@ body {
 .CR-App {
     margin-top: 15rem;
 }
-.CR-AppImg {
-    height: 720px;
-    background-image: url(../img/app.jpg);
-    background-repeat: no-repeat;
-	background-size: contain;
+.CR-AppBox {
+    margin-bottom: 2rem;
+}
+.CR-AppBox h3 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-left: 1rem;
+}
+.CR-AppBox h2 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem 1rem;
+}
+.CR-AppBoxImg {
+    margin-left: 1rem;
 }
 .u-xs-none { display: none; }
 
 .u-xs-block { display: block; }
 
 .u-area-icon {
-    background-image: url(../img/area.png);
+    background-image: url(../img/m2.png);
     background-repeat: no-repeat;
 	background-size: contain;
-    width: 3rem;
+    width: 2.3rem;
+    height: 2.5rem;
+    text-indent: -9999px;
+}
+.u-rooms-icon {
+    background-image: url(../img/hab.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    width: 2.3rem;
+    height: 2.5rem;
+    text-indent: -9999px;
+}
+.u-bath-icon {
+    background-image: url(../img/ban.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    width: 2.3rem;
     height: 2.5rem;
     text-indent: -9999px;
 }
@@ -280,7 +403,9 @@ body {
 
 .u-line { border-bottom: .1rem dashed #808080; }
 
+.u-bold { font-weight: bold;}
 
+.u-text-center { text-align: left;}
 @media screen and (min-width: 30em){ 
     .u-sm-none { display: none; }
 

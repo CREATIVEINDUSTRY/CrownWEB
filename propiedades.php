@@ -3,41 +3,30 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-<<<<<<< HEAD
+
     <title>Crown Bienes Raices</title>
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
 ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
-=======
-    <title>Crown Bienes Raices - Propiedades</title>
-    <meta name="description" content="Crown">
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/my_framework.css">
-<<<<<<< HEAD
 	<link rel="stylesheet" href="./css/formularios.css">
 	<link rel="stylesheet" href="./css/filter.css">
     <link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/style_slider.css">
-=======
-    <link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/filter.css">
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 	<link rel="stylesheet" href="./css/footer.css">
-
-
 </head>
 <body>
     <header class="CR-Header container-fluid">
-<<<<<<< HEAD
+
 <!-- Menu Redes Sociales -->
-=======
-		 <!-- Menu Redes Sociales -->
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 			<nav class="CR-MenuRS xs-w100">
-				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end">
+				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end xs-ai-center">
+					<li class="CR-Menu-itemRS xs-w55 lg-w80">
+						<p>Servicio al Cliente: <span>9015 3623</span> / mail:<a href="mailto:" class="CR-Menu-linkRS xs-w20">mail@</a></p>
+					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-facebook fa-2x"></a>
 					</li>
@@ -50,22 +39,10 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-youtube-play fa-2x"></a>
 					</li>
-					<li class="CR-Menu-itemRS xs-w10 lg-w5">
-<<<<<<< HEAD
-						<a href="app.html" class="CR-Menu-linkRS xs-w20 fa fa-whatsapp fa-2x"></a>
-					</li>
 				</ul>
 			</nav>
 <!-- Menu de Navegación -->
 		<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
-=======
-						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-whatsapp fa-2x"></a>
-					</li>
-				</ul>
-			</nav>
-  <!-- Menu de Navegación -->
-	<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 			<h1 class="CR-Logo lg-w20">
 				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
@@ -86,26 +63,19 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-<<<<<<< HEAD
-						<a href="contacto.html" class="CR-Menu-link">Publica</a>
+						<a href="contacto.html" class="CR-Menu-link">Vende tu Propiedad</a>
 					</li>
                     <li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">App</a>
-=======
-						<a href="contacto.html" class="CR-Menu-link">Publicar</a>
+						<a href="app.html" class="CR-Menu-link">App</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="app.html" class="CR-Menu-link">App</a>
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
+						<a href="#" class="CR-Menu-link">Intranet</a>
 					</li>
 				</ul>
 			</nav>
 		</article>
-<<<<<<< HEAD
 
 		</section>
-=======
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
 	</header>
 
 <main class="CR-Main container u-margin-top xs-w100 xs-flex xs-flex-wrap">
@@ -136,11 +106,11 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 <!--PostCard Desarrollos -->
 	<article class="CR-Desarollos container xs-w90 md-w65 lg-w75 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-<<<<<<< HEAD
+
 			<h2 class="xs-w100">Propiedades</h2>
-=======
+
 			<h2 class="xs-w100">Propiedades en la Zona</h2>
->>>>>>> 467baf3288d6494d3d83fb870b20abedda193cb4
+
             
             <?php 
                 include 'filterIterator.php'; 
