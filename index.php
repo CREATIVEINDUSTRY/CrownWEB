@@ -117,85 +117,81 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 
 	</article>
 <!--Slider Desarrollos -->
-	<article class="CR-Desarollos container xs-w90 md-flex md-flex-wrap">
+	<article class="CR-Inversion container xs-w90 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
-
         <h2 class="xs-w100">Oportunidades de Inversión</h2>
-
-			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Orun Palace</div>
-				<div class="mySlides fade xs-w100">
-            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
-				</div>
-        		<div class="mySlides fade xs-w100">
-            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
-				</div>
-         		<div class="mySlides fade xs-w100">
-            		<img class="CR-Desarollos-img  xs-w100" src="" alt="">
-				</div>
-
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Agor Interlomas</div>
-
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Plaza Dolmen</div>
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<img src="" alt="" class="mySlides fade CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
 			
-         <!--   <?php include 'mainItemLoader.php'; ?> -->
-            
-		<!--	<div class="xs-w100 xs-flex xs-jc-space-between">
- 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
+           <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
+				<div class="xs-w100 lg-w60">
+            		<img class="CR-Inversion-Orun  xs-w100" src="" alt="">
+					<div class="CR-Inversion-alert xs-w100">Ultimos Departamentos!</div>
+				</div>
+					
+				<div class="CR-Inversion-content xs-w90 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
+					<div class="CR-Inversion-boxTitle xs-w50 lg-w90 xs-as-center">
+					<h2 class="xs-w100">Orun Palace</h2>
+					<h3 class="xs-w100">Un estilo de vida</h3>
+						<h4 class="xs-w100"> hecho a tu medida!</h4>
+					</div>
+					<div class="CR-Inversion-img xs-w30 lg-w50 lg-order--1">
+            		<img class="CR-Inversion-OrunLogo  xs-w100" src="" alt="">
+				</div>
 				
 				
- 				<div class="Dots xs-w25 md-w13 xs-flex xs-ai-center">
-				<span class="dot xs-w10" onclick="currentSlide(1)"></span> 
-  				<span class="dot xs-w10" onclick="currentSlide(2)"></span> 
- 				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
+				<p class="xs-w85">Departamentos desde 209m2</p>
+				<p class="xs-w75"><span>Financiamiento Express</span></p>
+				
+				<a href="http://www.orunpalace.com/"  target="_black" class="xs-w90">Saber Más</a>
+				</div>
 			</div>
-				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
-			</div> 
 
-			<button href="#" class="CR-More xs-w90 xs-jc-flex-end">Ver +</button> -->
+			 <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
+				
+					
+				<div class="CR-Inversion-content xs-w90 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between lg-order-1">
+					<div class="CR-Inversion-boxTitle xs-w50 lg-w90 xs-as-center">
+					<h2 class="xs-w100">Agor <span>Interlomas</span></h2>
+					</div>
+					<div class="CR-Inversion-img xs-w30 lg-w50 lg-order--1">
+            		<img class="CR-Inversion-AgorLogo  xs-w100" src="" alt="">
+				</div>
+				
+				
+				<p class="xs-w85">Departamentos desde 175m2</p>
+				<p class="xs-w75"><span>Opciones de Financiamiento</span></p>
+				<div class="CR-Inversion-alertAgor  xs-w100">Últimas oportunidades!</div>
+				<a href="https://www.facebook.com/AgorInterlomas" target="_black" class="xs-w90">Saber Más</a>
+				</div>
+
+				<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
+            		<img class="CR-Inversion-Agor xs-w100" src="" alt="">
+					
+				</div>
+			</div>
+
+   <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
+				<div class="xs-w100 lg-w60">
+            		<img class="CR-Inversion-Dolmen  xs-w100" src="" alt="">
+				
+				</div>
+					
+				<div class="CR-Inversion-content xs-w90 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
+					<div class="CR-Inversion-boxTitle xs-w50 lg-w90 xs-as-center">
+					<h2 class="xs-w100">Dolmen</h2>
+					<h3 class="xs-w85">Proyecto de Corporativo &</h3> <h4 class="xs-w85">Residencial</h4>
+					</div>
+					<div class="CR-Inversion-img xs-w30 lg-w50 lg-order--1">
+            		<img class="CR-Inversion-DolmenLogo  xs-w100" src="" alt="">
+				</div>
+				
+				
+				
+				
+					<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir !</div>
+				
+				<a href="#"  target="_black" class="xs-w90">Saber Más</a>
+				</div>
+			</div>
 
 		</section>
 	</article>
