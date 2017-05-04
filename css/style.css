@@ -106,6 +106,144 @@ body {
     color: #222;
 }
 
+.CR-Inversion {
+    margin: 1.5rem auto;
+}
+.CR-Inversion section h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin: .5rem 0  0 2rem;
+}
+
+.CR-Inversion-box {
+    text-decoration: none;
+    position: relative;
+    background-color: #FFF;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px #808080;
+    margin: 1rem auto;
+    padding: 1rem;
+} 
+
+.CR-Inversion-box a {
+    text-decoration: none;
+}
+
+.CR-Inversion-Orun {
+    background-image: url('../img/orun.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: bottom; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-Agor {
+    background-image: url('../img/agor.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-Dolmen {
+    background-image: url('../img/dolmen_1.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-content {
+    margin: auto ;
+    color: #222;
+}
+.CR-Inversion-boxTitle {
+    margin: auto;
+}
+.CR-Inversion-boxTitle h3{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.CR-Inversion-boxTitle h4 {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.CR-Inversion-boxTitle h2 span {
+    font-weight: lighter;
+}
+.CR-Inversion-img {
+    margin: 0  auto;
+}
+.CR-Inversion-alert {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #CB9E2C;
+    padding: .5rem 1rem;
+    margin-top: -.5rem;
+}
+.CR-Inversion-alertAgor {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    padding: .5rem 1rem;
+    text-align: right;
+}
+.CR-Inversion-OrunLogo {
+    background-image: url('../img/logo_orun.png');
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: bottom; 
+    height: 8rem;
+    margin:  auto;
+}
+.CR-Inversion-AgorLogo {
+    background-image: url('../img/logo_agor.jpg');
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: bottom; 
+    height: 8rem;
+    margin:  auto;
+}
+.CR-Inversion-DolmenLogo {
+    background-image: url('../img/logo_dolmen.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 8rem;
+    margin:  auto;
+
+}
+.CR-Inversion-content  p {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #808080;
+    margin: auto;
+}
+.CR-Inversion-content  p span {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #333;
+}
+.CR-Inversion-content  a {
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
 .CR-Description {
     margin: 0 auto;
     
@@ -369,6 +507,36 @@ body {
 }
 .CR-AppBoxImg {
     margin-left: 1rem;
+}
+.CR-Intra {
+    background-image: url(../media/DJI_0021.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 100vh;
+}
+.CR-Intrabox {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 1rem;
+    padding: 1rem ;
+}
+.CR-Intrabox h3 {
+    color: #CB9E2C;
+    font-size: 1.5rem;
+}
+.CR-Intrabox h2 {
+    color: #CB9E2C;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: -.5rem;
+}
+.CR-Intrabox p {
+    color: #808080;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+
 }
 .u-xs-none { display: none; }
 
