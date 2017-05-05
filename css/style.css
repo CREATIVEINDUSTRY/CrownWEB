@@ -516,25 +516,25 @@ body {
 }
 .CR-Intrabox {
     position: absolute;
-    top: 70%;
-    right: 10%;
+    top: 50%;
+    right: 30%;
     background-color: rgba(255, 255, 255, .9);
     border-radius: 1rem;
-    padding: 1rem ;
+    padding: 3rem ;
 }
 .CR-Intrabox h3 {
     color: #CB9E2C;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .CR-Intrabox h2 {
     color: #CB9E2C;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: bold;
     margin-top: -.5rem;
 }
 .CR-Intrabox p {
     color: #808080;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.5rem;
 
 }
