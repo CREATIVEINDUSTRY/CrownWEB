@@ -120,6 +120,30 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 	<article class="CR-Inversion container xs-w90 md-flex md-flex-wrap">
 		<section class="container xs-w100 md-flex md-flex-wrap md-jc-space-between">
         <h2 class="xs-w100">Oportunidades de Inversión</h2>
+
+		<div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
+				<div class="xs-w100 lg-w60">
+            		<img class="CR-Inversion-Dolmen  xs-w100" src="" alt="">
+				
+				</div>
+					
+				<div class="CR-Inversion-content xs-w90 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
+					<div class="CR-Inversion-boxTitle xs-w50 lg-w90 xs-as-center">
+					<h2 class="xs-w100">Dolmen</h2>
+					<h3 class="xs-w85">Proyecto de Corporativo &</h3> <h4 class="xs-w85">Residencial</h4>
+					</div>
+					<div class="CR-Inversion-img xs-w30 lg-w50 lg-order--1">
+            		<img class="CR-Inversion-DolmenLogo  xs-w100" src="" alt="">
+				</div>
+				
+				
+				
+				
+					<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir !</div>
+				
+				<a href="contacto.html" class="xs-w90">Saber Más</a>
+				</div>
+			</div>
 			
            <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
 				<div class="xs-w100 lg-w60">
@@ -160,36 +184,12 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				<p class="xs-w85">Departamentos desde 175m2</p>
 				<p class="xs-w75"><span>Opciones de Financiamiento</span></p>
 				<div class="CR-Inversion-alertAgor  xs-w100">Últimas oportunidades!</div>
-				<a href="https://www.facebook.com/AgorInterlomas" target="_black" class="xs-w90">Saber Más</a>
+				<a href="contacto.html" class="xs-w90">Saber Más</a>
 				</div>
 
 				<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
             		<img class="CR-Inversion-Agor xs-w100" src="" alt="">
 					
-				</div>
-			</div>
-
-   <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
-				<div class="xs-w100 lg-w60">
-            		<img class="CR-Inversion-Dolmen  xs-w100" src="" alt="">
-				
-				</div>
-					
-				<div class="CR-Inversion-content xs-w90 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
-					<div class="CR-Inversion-boxTitle xs-w50 lg-w90 xs-as-center">
-					<h2 class="xs-w100">Dolmen</h2>
-					<h3 class="xs-w85">Proyecto de Corporativo &</h3> <h4 class="xs-w85">Residencial</h4>
-					</div>
-					<div class="CR-Inversion-img xs-w30 lg-w50 lg-order--1">
-            		<img class="CR-Inversion-DolmenLogo  xs-w100" src="" alt="">
-				</div>
-				
-				
-				
-				
-					<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir !</div>
-				
-				<a href="#"  target="_black" class="xs-w90">Saber Más</a>
 				</div>
 			</div>
 

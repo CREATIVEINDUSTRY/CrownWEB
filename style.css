@@ -1,0 +1,624 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	color: #222;
+}
+.CR-HomeBackground {
+    position: relative;
+    top: 0;
+	width: 100vw;
+	height:100vh;
+    background-image: url(../media/DJI_0021.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+}
+.CR-HomeFilter {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 1rem;
+    padding: 1rem ;
+}
+.CR-HomeFilter form select{
+    padding: .5rem 0;
+    margin: 1rem 0;
+    border: thin solid #CB9E2C;
+    border-radius: .5rem;
+}
+
+.CR-HomeFilter form button {
+    cursor: pointer;
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+}
+.CR-HomeBanner {
+    position: absolute;
+    top: 80%;
+    background-color: rgba(203, 158, 44, .7);
+    padding: 2rem ;
+    color:#FFF;
+    text-align: center;
+}
+.CR-HomeBanner h4 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.CR-HomeBanner h3 {
+    font-weight: 400;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+.CR-HomeBanner h3 span {
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.CR-HomeBackground-video {
+    width: inherit;
+    height: auto;
+}
+.CR-Desarollos {
+    margin: 1.5rem auto;
+}
+.CR-Desarollos h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: .5rem
+}
+
+.CR-Desarollos-box {
+    text-decoration: none;
+    position: relative;
+    background-color: #FFF;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px #808080;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+}
+
+.CR-Desarollos-box a {
+    text-decoration: none;
+}
+.CR-Desarollos-img {
+    background-color: #333;
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Desarollos-boxTitle{
+    position: absolute;
+    top: 17.5rem;
+    background-color: #CB9E2C;
+    padding: .5rem;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.5rem;
+}
+.CR-Desarollo-content {
+    margin: .5rem auto;
+    color: #222;
+}
+
+.CR-Inversion {
+    margin: 1.5rem auto;
+}
+.CR-Inversion section h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin: .5rem 0  0 2rem;
+}
+
+.CR-Inversion-box {
+    text-decoration: none;
+    position: relative;
+    background-color: #FFF;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px #808080;
+    margin: 1rem auto;
+    padding: 1rem;
+} 
+
+.CR-Inversion-box a {
+    text-decoration: none;
+}
+
+.CR-Inversion-Orun {
+    background-image: url('../img/orun.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: bottom; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-Agor {
+    background-image: url('../img/agor.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-Dolmen {
+    background-image: url('../img/dolmen_1.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Inversion-content {
+    margin: auto ;
+    color: #222;
+}
+.CR-Inversion-boxTitle {
+    margin: auto;
+}
+.CR-Inversion-boxTitle h3{
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+.CR-Inversion-boxTitle h4 {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.CR-Inversion-boxTitle h2 span {
+    font-weight: lighter;
+}
+.CR-Inversion-img {
+    margin: 0  auto;
+}
+.CR-Inversion-alert {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #CB9E2C;
+    padding: .5rem 1rem;
+    margin-top: -.5rem;
+}
+.CR-Inversion-alertAgor {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    padding: .5rem 1rem;
+    text-align: right;
+}
+.CR-Inversion-OrunLogo {
+    background-image: url('../img/logo_orun.png');
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: bottom; 
+    height: 8rem;
+    margin:  auto;
+}
+.CR-Inversion-AgorLogo {
+    background-image: url('../img/logo_agor.jpg');
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: bottom; 
+    height: 8rem;
+    margin:  auto;
+}
+.CR-Inversion-DolmenLogo {
+    background-image: url('../img/logo_dolmen.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+    height: 8rem;
+    margin:  auto;
+
+}
+.CR-Inversion-content  p {
+    text-align: left;
+    font-size: 1.2rem;
+    color: #808080;
+    margin: auto;
+}
+.CR-Inversion-content  p span {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #333;
+}
+.CR-Inversion-content  a {
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.CR-Description {
+    margin: 0 auto;
+    
+}
+.CR-Description h2 {
+    text-align: left;
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
+.CR-Description-box {
+    position: relative;
+    margin: 1rem auto 0;
+    padding-bottom: 1rem;
+}
+.CR-Description-slides {
+    position: relative;
+}
+
+.CR-Description-img {
+    background-color: #333;
+    height: 30rem;
+    margin: 0 auto;
+    border: 0;
+}
+.CR-Description-boxTitle{
+    background-color: #CB9E2C;
+    padding: .5rem;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+.CR-Description-content {
+    margin: .5rem auto;
+}
+
+.CR-Icons {
+    color: #808080;
+}
+.CR-Icons div {
+    margin: .2rem;
+}
+
+.CR-Icons i {
+    margin: .2rem;
+}
+.CR-More {
+    cursor: pointer;
+    color: #808080;
+    background-color: transparent;
+    position: relative;
+    border: 0;
+    text-align: right;
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.CR-More:hover {
+    font-style: italic;
+}
+
+.CR-ServiceSlider {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.CR-ServiceDots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+}
+.CR-Fondo {
+    background-color: rgba(128, 128, 128, 1);
+} 
+
+.CR-ServiciosBanner {
+    padding: 2rem 0;
+    color: #FFF;
+}
+
+.CR-ServiciosBanner div img {
+    height: 8rem;
+}
+.CR-ServiciosBanner div h4 {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.CR-ServiciosBanner div h3 {
+    font-weight: 400;
+    font-size: 1.9rem;
+    text-align: right;
+}
+.u-botton {
+    margin-right: 5rem;
+}
+.CR-ServiciosBox {
+    margin: 2rem auto;
+    text-align: justify;
+}
+
+.CR-ServiciosBox p {
+    margin: .5rem auto;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.CR-ServiceLine {
+    display: block;
+    width: 100%;
+    height: .1rem;
+    background-color: #CB9E2C;
+}
+.CR-ServiciosBoxList {
+    margin: auto;
+    line-height: 1.5rem;
+}
+.CR-ServiciosBoxDes {
+    background-color: rgba(128, 128, 128, .3);
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 7px #808080;
+}
+.CR-ServiciosImg {
+    margin: .5rem;
+}
+.CR-ServiciosImgPromo {
+    background-image: url(../img/promo.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgDeco {
+    background-image: url(../img/deco.JPG);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgProy {
+    background-image: url(../img/2909.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgCons {
+    background-image: url(../img/worker.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgLic {
+    background-image: url(../img/gestion.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosImgAse {
+    background-image: url(../img/ase.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center;
+}
+.CR-ServiciosList {
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+.Clients {
+    margin-top: 2rem;
+}
+.ClientsBox {
+    margin: 1rem auto;
+}
+.List {
+    margin: .8rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.List span {
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.Publicar {
+    text-align: center;
+    background-image:  url('../img/trans.png'),url('../img/2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    color: #FFF;
+    margin: 2rem 0;
+
+}
+.Publicar h3 {
+    font-size: 1.8rem;
+    margin: 2rem auto;
+    text-shadow:  1px 2px 5px #333;
+    font-weight: lighter; 
+}
+.Publicar h4 {
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    text-shadow:  1px 2px 5px #333; 
+}
+.Publicar .button {
+    margin-bottom: 2rem;
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+.Publicar .button:hover {
+    background-color: #808080;
+    color: #FFF;
+
+}
+.CR-Contacto-map { margin-top: 1rem;}
+
+.CR-Contacto-map a {
+    padding: .5rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: right;
+
+}
+.CR-Contacto-data {
+    margin: auto;
+    
+}
+.CR-Contacto-location {
+    margin: 1rem auto;
+}
+.CR-Contacto-phone {
+    margin: 1rem auto;
+}
+.CR-App {
+    margin-top: 15rem;
+}
+.CR-AppBox {
+    margin-bottom: 2rem;
+}
+.CR-AppBox h4 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: #CB9E2C;
+}
+.CR-AppBox h3 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-left: 1rem;
+}
+.CR-AppBox h2 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem 1rem;
+}
+.CR-AppBoxImg {
+    margin-left: 1rem;
+}
+.CR-Intra {
+    background-image: url(../media/DJI_0021.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 100vh;
+}
+.CR-Intrabox {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 1rem;
+    padding: 3rem ;
+}
+.CR-Intrabox h3 {
+    color: #CB9E2C;
+    font-size: 1.8rem;
+}
+.CR-Intrabox h2 {
+    color: #CB9E2C;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: -.5rem;
+}
+.CR-Intrabox p {
+    color: #808080;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+
+}
+.u-xs-none { display: none; }
+
+.u-xs-block { display: block; }
+
+.u-area-icon {
+    background-image: url(../img/m2.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    width: 2.3rem;
+    height: 2.5rem;
+    text-indent: -9999px;
+}
+.u-rooms-icon {
+    background-image: url(../img/hab.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    width: 2.3rem;
+    height: 2.5rem;
+    text-indent: -9999px;
+}
+.u-bath-icon {
+    background-image: url(../img/ban.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    width: 2.3rem;
+    height: 2.5rem;
+    text-indent: -9999px;
+}
+
+.u-margin-top { margin-top: 11rem;}
+
+.u-line { border-bottom: .1rem dashed #808080; }
+
+.u-bold { font-weight: bold;}
+
+.u-text-center { text-align: left;}
+@media screen and (min-width: 30em){ 
+    .u-sm-none { display: none; }
+
+    .u-sm-block { display: block; }
+}
+
+@media screen and (min-width: 48em){ 
+    .CR-HomeBanner { top: 85%;}
+    
+    .u-md-none { display: none; }
+
+    .u-md-block { display: block; }
+
+}
+
+@media screen and (min-width: 64em) {
+    .CR-HomeBackground { 
+        height: auto; 
+        background-image: none;
+    }
+
+    .CR-HomeFilter { top:45%; }
+    
+    .CR-HomeBanner {
+        top: 80%;
+        text-align: left;
+    }
+    .CR-ServiceImg {
+        max-height: 70vh;
+    }
+    .u-lg-none { display: none; }
+
+    .u-lg-block { display: block; }
+}
+
+@media screen and (min-width: 106em) {
+    .CR-HomeBackground { 
+        margin-top: -15rem;
+        height: auto; 
+        background-image: none;
+    }
+
+}
