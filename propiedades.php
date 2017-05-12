@@ -69,7 +69,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						<a href="app.html" class="CR-Menu-link">App</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="#" class="CR-Menu-link">Intranet</a>
+						<a href="intranet.html" class="CR-Menu-link">Intranet</a>
 					</li>
 				</ul>
 			</nav>
