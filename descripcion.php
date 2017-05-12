@@ -104,32 +104,6 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
     </aside>
 <!--Description -->
 	<article class="CR-Description xs-w90 md-w65 lg-w73 md-flex md-flex-wrap">
-	
-            <div class="CR-Description-box  xs-w90">
-			    <h2 class="xs-w100">Nombre de la Propiedad</h2>
-                <div class="CR-Description-slides xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
-                <img src="http://www.myhomeimprovementmag.com/wp-content/uploads/2016/10/71.jpg" alt="" class="mySlides fade CR-Description-img xs-w100">
-                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
-                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
-                <img src="" alt="" class="mySlides fade CR-Description-img xs-w100">
- 				<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)"></button>
-				<button  class="Arrow-right fa fa-arrow-circle-right fa-2x" onclick=" plusDivs(1)"></button> 
-				</div>
- 			<div class="Dots-img xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">
-				<div class="xs-w24" onclick="currentSlide(1)">
-                    <img src="http://www.myhomeimprovementmag.com/wp-content/uploads/2016/10/71.jpg" alt="" class="Thumbnails xs-w100">
-                </div> 
-  				<div class="xs-w24" onclick="currentSlide(2)">
-                    <img src="" alt="" class="Thumbnails xs-w100">
-                </div> 
- 				<div class="xs-w24" onclick="currentSlide(3)">
-                    <img src="" alt="" class="Thumbnails xs-w100">
-                </div> 
-               <div class="xs-w24" onclick="currentSlide(4)">
-                    <img src="" alt="" class="Thumbnails xs-w100">
-                </div> 
-			</div>
-            </div>
                 
 				<?php 
                         include 'itemSetter.php'; 
