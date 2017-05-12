@@ -7,13 +7,36 @@ Load the selected filter result
         $locationID = $_POST["locationF"];
         $typeID = $_POST["typeF"];
         $operationID = $_POST["operationF"];    
-        $sql = 'SELECT * FROM items WHERE type = '.$typeID.' AND operation = '.$operationID.' AND neighborhoodID = '.$locationID.'';
+        //$sql = 'SELECT * FROM items WHERE type = '.$typeID.' AND operation = '.$operationID.' AND neighborhoodID = '.$locationID.'';
+        $sql = 'SELECT * FROM items ';
+        $needAnd = FALSE;
+        if($locationID!=0|| $typeID!=0 || $operationID!=0 ){
+            $sql .= 'WHERE ';
+            if ($locationID != 0){
+                $needAnd = TRUE;
+                $sql .= 'neighborhoodID = '.$locationID.'';
+            }
+            if ($typeID != 0){
+                if ($needAnd == TRUE) {
+                    $sql .= ' AND';    
+                }
+                $needAnd = TRUE;
+                $sql .= ' type = '.$typeID.'';
+            }
+            if ($operationID != 0){
+                if ($needAnd == TRUE) {
+                    $sql .= ' AND';    
+                }
+                $sql .= ' operation = '.$operationID.'';
+            }
+        }
+        
 
     } else {
         $sql = 'SELECT * FROM items';
 
     }
-    
+    echo 'La query es '.$sql.'';
     $result = $GLOBALS['conection']->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
@@ -36,7 +59,7 @@ Load the selected filter result
         }
     } else {
         //need to change 
-        echo "0 results";
+        echo "No Se encontraron resultados intenta otra busqueda";
     }
     $GLOBALS['conection']->close();     
 ?>
