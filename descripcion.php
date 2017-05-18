@@ -15,7 +15,136 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
     <link rel="stylesheet" href="./css/style_slider.css">
 	<link rel="stylesheet" href="./css/filter.css">
 	<link rel="stylesheet" href="./css/footer.css">
+<meta name="viewport" content="width=devicee-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.min.css">
 
+    <!-- Demo styles -->
+    <style>
+    
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modalA {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-contentA {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.closeA {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.closeA:hover,
+.closeA:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlidesA {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prevA,
+.nextA {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nextA {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prevA:hover,
+.nextA:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertextA {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-containerA {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+    
+    </style>
 
 </head>
 <body>
@@ -110,57 +239,6 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
                 ?>
 			</div>
 			</div>
-<!-- propiedades relacionadas -->
-	    <section class="xs-w100 md-flex md-flex-wrap  md-jc-space-between">
-            <h2 class="xs-w100">Propiedades Relacionadas</h2>
-            <div class="CR-Desarollos-box  xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 1 </h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box  xs-w75 u-xs-none u-md-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 2</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>
-
-			<div class="CR-Desarollos-box  xs-w75 u-xs-none u-lg-block xs-w75 md-w45 lg-w30">
-				<div class="CR-Desarollos-boxTitle xs-w100">Ubicación</div>
-				<img src="" alt="" class="CR-Desarollos-img xs-w100">
-				<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">
-				<h4 class="xs-w100">Nombre del Desarollo 3</h4>
-				<p class="xs-w75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet erat ex. Duis nunc quam, dignissim volutpat maximus in, aliquam in orci. Integer vel dolor sed purus pharetra lobortis. Vivamus dui velit, porttitor eget mi ac, blandit dignissim quam. Fusce semper elit sed dignissim porttitor.</p>
-				<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">
-				<div class="xs-w90">Área<div class="u-area-icon"></div>
-				<div class="xs-w90">Nro Hab.<i class="fa fa-bed fa-2x" aria-hidden="true"></i></div>
-				<div class="xs-w90">Nro Bañ.<i class="fa fa-bath fa-2x"></i></div>
-				</div>
-				</div>
-				</div>
-			</div>	
-			
-            <button href="#" class="CR-More xs-w100 xs-jc-flex-end">Ver +</button>
-
-		</section>
 	</article>
 </main>
 	
@@ -257,6 +335,73 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		</div>
 	</footer>
 
+
+    <!-- Initialize Swiper -->
+    <script>
+        
+
+        function openModal() {
+          document.getElementById('myModalA').style.display = "block";
+        }
+
+        function closeModal() {
+          document.getElementById('myModalA').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlidesDetail(slideIndex);
+
+        function plusSlidesDetail(n) {
+          showSlidesDetail(slideIndex += n);
+        }
+
+        function currentSlideDetail(n) {
+          showSlidesDetail(slideIndex = n);
+        }
+
+        function showSlidesDetail(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlidesA");
+          var dots = document.getElementsByClassName("demoA");
+          var captionText = document.getElementById("captionA");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+
+        }
+	</script>
+
+
+    <script src="https://hammerjs.github.io/dist/hammer.js">
+         
+    </script>
+    <script>
+        var myElement = document.getElementById('myModalA');
+
+        // create a simple instance
+        // by default, it only adds horizontal recognizers
+        var mc = new Hammer(myElement);
+
+        // let the pan gesture support all directions.
+        // this will block the vertical scrolling on a touch-device while on the element
+        
+        mc.on("swipeleft", function(ev) {
+            plusSlidesDetail(1);
+        });     
+        
+        mc.on("swiperight", function(ev) {
+            plusSlidesDetail(-1);
+        });     
+    </script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
 	 <script src="./js/navigation.js"></script>
      <script src="./js/slider_descrip.js"></script>
 </body>

@@ -36,7 +36,6 @@ Load the selected filter result
         $sql = 'SELECT * FROM items';
 
     }
-    echo 'La query es '.$sql.'';
     $result = $GLOBALS['conection']->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
