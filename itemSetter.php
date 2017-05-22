@@ -83,9 +83,8 @@
             echo '</div>';
             
             echo '<div id="myModalA" class="modalA" >';
-            
-            echo '<div class="modal-contentA">';
             echo '<span class="close cursor" onclick="closeModal()">&#935;</span>';
+            echo '<div class="modal-contentA">';
             
             $sql = 'SELECT * FROM Images WHERE itemID = '.$row["itemID"].'';
                 $result = $GLOBALS['conection']->query($sql);

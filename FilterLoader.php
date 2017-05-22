@@ -31,4 +31,4 @@ function filterLoader($typeFilter) {
         $GLOBALS['conection']->close();     
 }
         
-    ?>
+?>

@@ -65,9 +65,9 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 .closeA {
   color: white;
   position: absolute;
-  top: 10px;
+  top: 10%;
   right: 25px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 .nextA {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -239,6 +239,7 @@ img.hover-shadow {
                 ?>
 			</div>
 			</div>
+
 	</article>
 </main>
 	
