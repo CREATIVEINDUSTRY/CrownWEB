@@ -15,7 +15,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/style_slider.css">
-	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/footer.css"> 
 
 
 </head>
