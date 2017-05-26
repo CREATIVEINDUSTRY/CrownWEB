@@ -2,6 +2,9 @@
 var slideIndex = 0;
 carousel();
 
+function currentSlide(n) {
+  carousel(slideIndex = n);
+}
 
 function carousel() {
     var i;
