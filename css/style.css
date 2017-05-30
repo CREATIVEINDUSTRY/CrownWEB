@@ -214,7 +214,7 @@ body {
 .CR-Inversion-DolmenLogo {
     background-image: url('../img/logo_dolmen.jpg');
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
     background-position: center; 
     height: 8rem;
     margin:  auto;
