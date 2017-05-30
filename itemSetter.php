@@ -70,14 +70,14 @@
             echo '</div> ';
             
             
-            echo '<div class="CR-Description-boxTitle xs-w90"> $ '.$row["price"].'.00 </div>';
+            echo '<div class="CR-Description-boxTitle xs-w90"> $ '.number_format($row["price"], 2).'.00 </div>';
             echo '<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">';
             echo '<h4 class="xs-w100">'.$row["title"].' </h4>';
             echo '<p class="xs-w75">'.$row["description"].'</p>';
             echo '<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">';
             echo '<div class="xs-w90 xs-flex xs-flex-wrap">'.$row["area"].'<div class="u-area-icon"></div>';
-            echo '<div class="xs-w90">'.$row["rooms"].'<i class="fa fa-bed fa-2x"></i></div>';
-            echo '<div class="xs-w90">'.$row["bathrooms"].'<i class="fa fa-bath fa-2x"></i></div>';
+            echo '<div class="xs-w90">'.$row["rooms"].'<div class="u-rooms-icon"></div></div>';
+            echo '<div class="xs-w90">'.$row["bathrooms"].'<div class="u-bath-icon"></div></div>';
             echo '</div>';
             echo '</div>';
             echo '</div>';
