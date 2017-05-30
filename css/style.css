@@ -88,13 +88,13 @@ body {
 }
 .CR-Desarollos-img {
     background-color: #333;
-    height: 20rem;
+    height: 12rem;
     margin: 0 auto;
     border: 0;
 }
 .CR-Desarollos-boxTitle{
     position: absolute;
-    top: 17.5rem;
+    top: 9.5rem;
     background-color: #CB9E2C;
     padding: .5rem;
     color: #FFF;
@@ -132,7 +132,7 @@ body {
 .CR-Inversion-Orun {
     background-image: url('../img/orun.jpg');
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
     background-position: bottom; 
     height: 20rem;
     margin: 0 auto;
@@ -141,7 +141,7 @@ body {
 .CR-Inversion-Agor {
     background-image: url('../img/agor.jpg');
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
     background-position: center; 
     height: 20rem;
     margin: 0 auto;
@@ -150,7 +150,7 @@ body {
 .CR-Inversion-Dolmen {
     background-image: url('../img/dolmen_1.jpg');
     background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
     background-position: center; 
     height: 20rem;
     margin: 0 auto;
