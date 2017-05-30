@@ -151,7 +151,10 @@ img.hover-shadow {
     <header class="CR-Header container-fluid">
 <!-- Menu Redes Sociales -->
 			<nav class="CR-MenuRS xs-w100">
-				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end">
+				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end xs-ai-center">
+					<li class="CR-Menu-itemRS xs-w55 lg-w80">
+						<p>Servicio al Cliente: <span>9015 3623</span></p>
+					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-facebook fa-2x"></a>
 					</li>
@@ -163,9 +166,6 @@ img.hover-shadow {
 					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-youtube-play fa-2x"></a>
-					</li>
-					<li class="CR-Menu-itemRS xs-w10 lg-w5">
-						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-whatsapp fa-2x"></a>
 					</li>
 				</ul>
 			</nav>

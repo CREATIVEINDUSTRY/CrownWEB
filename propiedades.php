@@ -25,7 +25,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<nav class="CR-MenuRS xs-w100">
 				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end xs-ai-center">
 					<li class="CR-Menu-itemRS xs-w55 lg-w80">
-						<p>Servicio al Cliente: <span>9015 3623</span> / mail:<a href="mailto:" class="CR-Menu-linkRS xs-w20">mail@</a></p>
+						<p>Servicio al Cliente: <span>9015 3623</span></p>
 					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-facebook fa-2x"></a>
