@@ -57,19 +57,19 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="servicios.html" class="CR-Menu-link">Servicios</a>
+						<a href="servicios.php" class="CR-Menu-link">Servicios</a>
 					</li>
 					<li class="CR-Menu-item">
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="contacto.html" class="CR-Menu-link">Vende tu Propiedad</a>
+						<a href="contacto.php" class="CR-Menu-link">Vende tu Propiedad</a>
 					</li>
                     <li class="CR-Menu-item">
-						<a href="app.html" class="CR-Menu-link">App</a>
+						<a href="app.php" class="CR-Menu-link">App</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="intranet.html" class="CR-Menu-link">Intranet</a>
+						<a href="intranet.php" class="CR-Menu-link">Intranet</a>
 					</li>
 				</ul>
 			</nav>
@@ -141,7 +141,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				
 					<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir !</div>
 				
-				<a href="contacto.html" class="xs-w90">Saber Más</a>
+				<a href="contacto.php" class="xs-w90">Saber Más</a>
 				</div>
 			</div>
 			
@@ -184,7 +184,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				<p class="xs-w85">Departamentos desde 175m2</p>
 				<p class="xs-w75"><span>Opciones de Financiamiento</span></p>
 				<div class="CR-Inversion-alertAgor  xs-w100">Últimas oportunidades!</div>
-				<a href="contacto.html" class="xs-w90">Saber Más</a>
+				<a href="contacto.php" class="xs-w90">Saber Más</a>
 				</div>
 
 				<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
@@ -232,13 +232,13 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 						Tipo de Propiedad
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100 ">
-								<a href="#" class="CR-Contact-link xs-w20">Compra</a>
+								<a href="propiedades.php?operationF=1" class="CR-Contact-link xs-w20" >Venta</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Venta</a>
+								<a href="propiedades.php?operationF=2" class="CR-Contact-link xs-w20">Renta</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						</ul>
 						</li>
@@ -249,13 +249,13 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 						
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Casa</a>
+								<a href="propiedades.php?typeF=1" class="CR-Contact-link xs-w20">Casa</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Departamentos</a>
+								<a href="propiedades.php?typeF=2" class="CR-Contact-link xs-w20">Departamentos</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						 </ul> </li>
 					</ul>
@@ -265,19 +265,19 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 						Zonas Destacadas
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100">
-								<a href="#" class="CR-Contact-link xs-w20">Zona 1</a>
+								<a href="propiedades.php?locationF=4" class="CR-Contact-link xs-w20">Zona 1</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 ">
-								<a href="#" class="CR-Contact-link xs-w20">Zona 2</a>
+								<a href="propiedades.php?locationF=6" class="CR-Contact-link xs-w20">Zona 2</a>
 							</li>
 							<li class="CR-Contact-item xs-w100">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						 </ul> </li>
 					</ul>
 				<ul class="CR-Contact-listItem xs-w45 lg-w23">
 					<li class="CR-Contact-item xs-w10 lg-w5">
-						<a href="#" class="CR-Contact-link xs-w20">Contacto</a>
+						<a href="contacto.php" class="CR-Contact-link xs-w20">Contacto</a>
 					</li>
 				</ul>
 			</nav> 

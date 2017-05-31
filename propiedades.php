@@ -53,23 +53,23 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 				</span>
 				</button>
 			</span>
-		<article class="CR-Panel xs-w100 lg-w75">
+		<article class="CR-Panel xs-w100 lg-w75"
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="servicios.html" class="CR-Menu-link">Servicios</a>
+						<a href="servicios.php" class="CR-Menu-link">Servicios</a>
 					</li>
 					<li class="CR-Menu-item">
 						<a href="propiedades.php" class="CR-Menu-link">Propiedades</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="contacto.html" class="CR-Menu-link">Vende tu Propiedad</a>
+						<a href="contacto.php" class="CR-Menu-link">Vende tu Propiedad</a>
 					</li>
                     <li class="CR-Menu-item">
-						<a href="app.html" class="CR-Menu-link">App</a>
+						<a href="app.php" class="CR-Menu-link">App</a>
 					</li>
 					<li class="CR-Menu-item">
-						<a href="intranet.html" class="CR-Menu-link">Intranet</a>
+						<a href="intranet.php" class="CR-Menu-link">Intranet</a>
 					</li>
 				</ul>
 			</nav>
@@ -150,19 +150,19 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		</div>  
      
 		<!-- Menu Footer -->
-		<nav class="CR-Contact-nav xs-w60 lg-w73 xs-flex xs-flex-wrap xs-jc-space-between">
+			<nav class="CR-Contact-nav xs-w60 lg-w73 xs-flex xs-flex-wrap xs-jc-space-between">
 				<ul class="CR-Contact-listItem xs-w45 lg-w23">
 					<li class="CR-Contact-item xs-w100">
 						Tipo de Propiedad
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100 ">
-								<a href="#" class="CR-Contact-link xs-w20">Compra</a>
+								<a href="propiedades.php?operationF=1" class="CR-Contact-link xs-w20" >Venta</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Venta</a>
+								<a href="propiedades.php?operationF=2" class="CR-Contact-link xs-w20">Renta</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						</ul>
 						</li>
@@ -173,13 +173,13 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Casa</a>
+								<a href="propiedades.php?typeF=1" class="CR-Contact-link xs-w20">Casa</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">Departamentos</a>
+								<a href="propiedades.php?typeF=2" class="CR-Contact-link xs-w20">Departamentos</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						 </ul> </li>
 					</ul>
@@ -189,22 +189,23 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						Zonas Destacadas
 							<ul class="CR-Contact-listItem">
 							<li class="CR-Contact-item xs-w100">
-								<a href="#" class="CR-Contact-link xs-w20">Zona 1</a>
+								<a href="propiedades.php?locationF=4" class="CR-Contact-link xs-w20">Zona 1</a>
 							</li>
 							<li class="CR-Contact-item xs-w100 ">
-								<a href="#" class="CR-Contact-link xs-w20">Zona 2</a>
+								<a href="propiedades.php?locationF=6" class="CR-Contact-link xs-w20">Zona 2</a>
 							</li>
 							<li class="CR-Contact-item xs-w100">
-								<a href="#" class="CR-Contact-link xs-w20">+</a>
+								<a href="propiedades.php" class="CR-Contact-link xs-w20">+</a>
 							</li>
 						 </ul> </li>
 					</ul>
 				<ul class="CR-Contact-listItem xs-w45 lg-w23">
 					<li class="CR-Contact-item xs-w10 lg-w5">
-						<a href="#" class="CR-Contact-link xs-w20">Contacto</a>
+						<a href="contacto.php" class="CR-Contact-link xs-w20">Contacto</a>
 					</li>
 				</ul>
 			</nav> 
+
 
 		</div>	
 

@@ -3,10 +3,25 @@
 Load the selected filter result
 **/
     include 'databaseconfig.php';
-    if(isset($_POST["locationF"])){
-        $locationID = $_POST["locationF"];
-        $typeID = $_POST["typeF"];
-        $operationID = $_POST["operationF"];    
+    if(isset($_POST["locationF"])||isset($_GET["operationF"])||isset($_GET["typeF"])||isset($_GET["locationF"])){
+        if (isset($_GET["operationF"])) {
+            $operationID = $_GET["operationF"];
+        } else {
+            $operationID = $_POST["operationF"];        
+        }
+                
+        if (isset($_GET["locationF"])) {
+            $locationID = $_GET["locationF"];
+        } else {
+            $locationID = $_POST["locationF"];        
+        }
+        
+        if (isset($_GET["typeF"])) {
+            $typeID = $_GET["typeF"];
+        } else {
+            $typeID = $_POST["typeF"];        
+        }
+                
         //$sql = 'SELECT * FROM items WHERE type = '.$typeID.' AND operation = '.$operationID.' AND neighborhoodID = '.$locationID.'';
         $sql = 'SELECT * FROM items ';
         $needAnd = FALSE;
