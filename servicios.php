@@ -94,10 +94,10 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
         		<div class="CR-ServiceDots xs-w50 xs-flex xs-ai-center">
  				
  				<div class="Dots xs-w25 md-w13 xs-flex xs-ai-center">
-				<span class="dot xs-w10" onclick="currentSlide(1)"></span> 
-  				<span class="dot xs-w10" onclick="currentSlide(2)"></span> 
- 				<span class="dot xs-w10" onclick="currentSlide(3)"></span> 
-                <span class="dot xs-w10" onclick="currentSlide(4)"></span>  
+				<span class="dot xs-w10" onclick="currentSlideSrr(1)"></span> 
+  				<span class="dot xs-w10" onclick="currentSlideSrr(2)"></span> 
+ 				<span class="dot xs-w10" onclick="currentSlideSrr(3)"></span> 
+                <span class="dot xs-w10" onclick="currentSlideSrr(4)"></span>  
 			    </div>
 			
 			</div>

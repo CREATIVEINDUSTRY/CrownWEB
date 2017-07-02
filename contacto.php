@@ -77,6 +77,24 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 
 		</section>
 	</header>
+    
+    <?php 
+    if(isset($_POST['submit'])){
+    $to = "ggomezleal@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $name = $_POST['nombre'];
+    $phone = $_POST['phone'];
+    $type = $_POST['tipo_propiedad'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = "Nombre: " . $name . " \n Telefono :  " . $phone . "\n Tipo de propiedad : " . $type . "\n Mensaje: " . $_POST['descripcion'] . " \n Mail: " . $from . "";
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    }
+    ?>
+    
 <!-- contacto -->
     <main class="CR-Contacto  container-fluid u-margin-top">
 <!-- formulario de publicar -->
@@ -88,7 +106,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		   <div class="CR-ServiceLine"></div>
 		   <h2> Nosotros lo hacemos por tí!</h2>
         
-        <form action="" class="container xs-w75 lg-w75">
+        <form action="" method="post" class="container xs-w75 lg-w75">
 		<div class="CR-Form-input xs-w90">
 			<input type="text" name="nombre" title="Tu nombre" placeholder="Escribe tu nombre" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+" class="xs-w100" required>
 		</div>
@@ -105,7 +123,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<textarea name="descripcion" title="Descripción de la Propiedad" placeholder="Descripción de la Propiedad" rows="15" class="xs-w100" required></textarea>
 		</div>
 		<div class="CR-Form-button xs-w90 xs-flex xs-jc-flex-end">
-			<input class="button xs-w30" type="submit" value="Enviar">
+			<input class="button xs-w30" name="submit" type="submit" value="Enviar">
 		</div>
 		<div class="preload  hidden">
 			<i class="fa  fa-refresh  fa-spin  fa-2x"></i>

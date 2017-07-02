@@ -38,13 +38,4 @@
 		}, 3000);
 	}
 
-	for (var i = 0; i < d.forms.length; i++) {
-		d.forms[i].onsubmit = sendForm;
-	};
-
-	for (var i = 0; i < validateInputs.length; i++) {
-		validateInputs[i].onblur = validateForm;
-	};
-
-
 })(document, window);
