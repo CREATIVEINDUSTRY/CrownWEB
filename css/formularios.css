@@ -18,7 +18,7 @@ input:focus {
     border: thin solid #CB9E2C;
     border-radius: .5rem;
 }
-.CR-Form-input input,  .CR-Form-input textarea {
+.CR-Form-input input,  .CR-Form-input textarea, .CR-Form-input select {
     border: 0;
     padding: .7rem;
     background-color: transparent;

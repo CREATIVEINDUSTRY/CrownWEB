@@ -32,12 +32,6 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-facebook fa-2x"></a>
 					</li>
 					<li class="CR-Menu-itemRS xs-w10 lg-w5">
-						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-twitter fa-2x"></a>
-					</li>
-					<li class="CR-Menu-itemRS xs-w10 lg-w5">
-						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-instagram fa-2x"></a>
-					</li>
-					<li class="CR-Menu-itemRS xs-w10 lg-w5">
 						<a href="#" class="CR-Menu-linkRS xs-w20 fa fa-youtube-play fa-2x"></a>
 					</li>
 				</ul>
@@ -45,7 +39,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 <!-- Menu de Navegación -->
 		<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
 			<h1 class="CR-Logo lg-w20">
-				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
+				<a href="/" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
 			<span class="CR-Panel-button">
 				<button class="hamburger  hamburger--elastic" type="button">
@@ -57,6 +51,9 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		<article class="CR-Panel xs-w100 lg-w75">
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
+                    <li class="CR-Menu-item">
+						<a href="index.php" class="CR-Menu-link">Inicio</a>
+					</li>
 					<li class="CR-Menu-item">
 						<a href="servicios.php" class="CR-Menu-link">Servicios</a>
 					</li>
@@ -95,18 +92,9 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 				<ul class="CR-Contact-rslistItem xs-w90 xs-flex xs-jc-flex-end">
 					<li class="CR-Contact-rsitem xs-w10 lg-w5">
 						<a href="#" class="CR-Contact-rslink xs-w20 fa fa-facebook fa-2x"></a>
-					</li>
-					<li class="CR-Contact-rsitem xs-w10 lg-w5">
-						<a href="#" class="CR-Contact-rslink xs-w20 fa fa-twitter fa-2x"></a>
-					</li>
-					<li class="CR-Contact-rsitem xs-w10 lg-w5">
-						<a href="#" class="CR-Contact-rslink xs-w20 fa fa-instagram fa-2x"></a>
-					</li>
+                    </li>
 					<li class="CR-Contact-rsitem xs-w10 lg-w5">
 						<a href="#" class="CR-Contact-rslink xs-w20 fa fa-youtube-play fa-2x"></a>
-					</li>
-					<li class="CR-Contact-rsitem xs-w10 lg-w5">
-						<a href="#" class="CR-Contact-rslink xs-w20 fa fa-whatsapp fa-2x"></a>
 					</li>
 				</ul>
 			</nav>

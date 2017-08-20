@@ -129,7 +129,7 @@
 
 .CR-Menu-link {
 	display: block;
-	padding: 1.5rem;
+	padding: 1.5rem 1rem;
 	font-weight: bold;
 	color: #FFF;
 	transition: all .3s ease-out;
