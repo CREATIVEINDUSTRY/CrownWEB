@@ -10,22 +10,22 @@ body {
     top: 0;
 	width: 100vw;
 	height:100vh;
-    background-image: url(../media/DJI_0021.png);
+    background-image: url("../media/DJI_0021.png");
 	background-repeat: no-repeat;
 	background-size: cover;
     background-position: center; 
 }
 .CR-HomeFilter {
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 10.5rem;
+    right: 3%;
     background-color: rgba(255, 255, 255, .7);
     border-radius: 1rem;
     padding: 1rem ;
 }
 .CR-HomeFilter form select{
     padding: .5rem 0;
-    margin: 1rem 0;
+    margin: .5rem 0;
     border: thin solid #CB9E2C;
     border-radius: .5rem;
 }
@@ -39,6 +39,7 @@ body {
     font-weight: bold;
     border: none;
 }
+
 .CR-HomeBanner {
     position: absolute;
     top: 70%;
@@ -49,20 +50,21 @@ body {
 }
 .CR-HomeBanner h4 {
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 2.7vh;
 }
 .CR-HomeBanner h3 {
     font-weight: 400;
     margin-left: 3rem;
-    font-size: 1.5rem;
+    font-size: 3vh;
 }
 .CR-HomeBanner h3 span {
     font-weight: 600;
-    font-size: 1.9rem;
+    font-size: 3.5vh;
 }
 .CR-HomeBackground-video {
     width: inherit;
     height: auto;
+    
 }
 .CR-Desarollos {
     margin: 1.5rem auto;
@@ -112,8 +114,7 @@ body {
 .CR-Inversion section h2 {
     text-align: left;
     font-size: 2rem;
-    margin: .5rem 0  0 2rem;
-}
+    margin: .5rem 0  0 1rem;}
 
 .CR-Inversion-box {
     text-decoration: none;
@@ -129,8 +130,18 @@ body {
     text-decoration: none;
 }
 
+.CR-Inversion-Life {
+    background-image: url("../img/panoramica-central-2.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-position: bottom; 
+    height: 20rem;
+    margin: 0 auto;
+    border: 0;
+}
+
 .CR-Inversion-Orun {
-    background-image: url('../img/orun.jpg');
+    background-image: url("../img/orun.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: bottom; 
@@ -139,7 +150,7 @@ body {
     border: 0;
 }
 .CR-Inversion-Agor {
-    background-image: url('../img/agor.jpg');
+    background-image: url("../img/agor.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: center; 
@@ -148,7 +159,7 @@ body {
     border: 0;
 }
 .CR-Inversion-Dolmen {
-    background-image: url('../img/dolmen_1.jpg');
+    background-image: url("../img/dolmen_1.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
     background-position: center; 
@@ -177,6 +188,19 @@ body {
 .CR-Inversion-boxTitle h2 span {
     font-weight: lighter;
 }
+.CR-Inversion-boxTitle h5 {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.CR-Inversion-boxTitle h6{
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
 .CR-Inversion-img {
     margin: 0  auto;
 }
@@ -189,22 +213,41 @@ body {
     margin-top: -.5rem;
 }
 .CR-Inversion-alertAgor {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #333;
     padding: .5rem 1rem;
     text-align: right;
 }
+.CR-Inversion-alertLife {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    padding: .5rem 1rem;
+    text-align: right;
+}
 .CR-Inversion-OrunLogo {
-    background-image: url('../img/logo_orun.png');
+    background-image: url("../img/logo_orun.png");
     background-repeat: no-repeat;
 	background-size: contain;
     background-position: bottom; 
-    height: 8rem;
+    height: 9rem;
     margin:  auto;
 }
+
+.CR-Inversion-LifeLogo {
+    background-image: 
+         url("../img/logo-life-blanco.png"),
+         url("../img/seccion-1-fondo.jpg");
+    background-repeat: no-repeat, repeat;
+	background-size: contain;
+    background-position: center; 
+    height: 8rem;
+    border-radius: .5rem;
+    margin:.5rem  auto;
+}
 .CR-Inversion-AgorLogo {
-    background-image: url('../img/logo_agor.jpg');
+    background-image: url("../img/logo_agor.jpg");
     background-repeat: no-repeat;
 	background-size: contain;
     background-position: bottom; 
@@ -212,13 +255,19 @@ body {
     margin:  auto;
 }
 .CR-Inversion-DolmenLogo {
-    background-image: url('../img/logo_dolmen.jpg');
+    background-image: url("../img/logo_dolmen.jpg");
     background-repeat: no-repeat;
 	background-size: contain;
     background-position: center; 
     height: 8rem;
     margin:  auto;
-
+}
+.CR-Inversion-content h3 {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #808080;
+    margin: .3rem auto;
 }
 .CR-Inversion-content  p {
     text-align: left;
@@ -226,6 +275,7 @@ body {
     color: #808080;
     margin: auto;
 }
+
 .CR-Inversion-content  p span {
     text-align: left;
     font-size: 1.3rem;
@@ -233,8 +283,24 @@ body {
     color: #333;
 }
 .CR-Inversion-content  a {
-    padding: .5rem;
+    padding: 1rem;
     background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.CR-Inversion-content  a:hover {
+    color: #333;
+}
+
+.CR-Inversion-content  .Video {
+    padding: .6rem;
+    background-color: #808080;
     color: #FFF;
     border-radius: .3rem;
     font-weight: bold;
@@ -314,7 +380,7 @@ body {
 .CR-ServiceDots {
     position: absolute;
     bottom: 1rem;
-    left: 50%;
+    left: 43%;
 }
 .CR-Fondo {
     background-color: rgba(128, 128, 128, 1);
@@ -362,46 +428,46 @@ body {
     line-height: 1.5rem;
 }
 .CR-ServiciosBoxDes {
-    background-color: rgba(128, 128, 128, .3);
+    background-color: rgba(203, 158, 44, .7);
     padding: 2rem;
     border-radius: .5rem;
-    box-shadow: 1px 1px 7px #808080;
+    box-shadow: 1px 2px 3px #808080;
 }
 .CR-ServiciosImg {
     margin: .5rem;
 }
 .CR-ServiciosImgPromo {
-    background-image: url(../img/promo.jpg);
+    background-image: url("../img/promo.jpg");
     height: 25rem;
     background-size: cover;
     background-position: center;
 }
 .CR-ServiciosImgDeco {
-    background-image: url(../img/deco.jpg);
+    background-image: url("../img/crind.jpg");
     height: 25rem;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 .CR-ServiciosImgProy {
-    background-image: url(../img/2909.jpg);
+    background-image: url("../img/2909.jpg");
     height: 25rem;
     background-size: cover;
     background-position: center;
 }
 .CR-ServiciosImgCons {
-    background-image: url(../img/worker.jpg);
+    background-image: url("../img/worker.jpg");
     height: 25rem;
     background-size: cover;
     background-position: center;
 }
 .CR-ServiciosImgLic {
-    background-image: url(../img/gestion.jpg);
+    background-image: url("../img/gestion.jpg");
     height: 25rem;
     background-size: cover;
     background-position: center;
 }
 .CR-ServiciosImgAse {
-    background-image: url(../img/ase.jpg);
+    background-image: url("../img/ase.jpg");
     height: 25rem;
     background-size: cover;
     background-position: center;
@@ -430,7 +496,7 @@ body {
 
 .Publicar {
     text-align: center;
-    background-image:  url('../img/trans.png'),url('../img/2.jpg');
+    background-image:  url("../img/trans.png"),url("../img/2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -496,6 +562,11 @@ body {
 .CR-AppBox {
     margin-bottom: 2rem;
 }
+.CR-AppBox h4 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: #CB9E2C;
+}
 .CR-AppBox h3 {
     font-size: 2.5rem;
     font-weight: lighter;
@@ -509,16 +580,16 @@ body {
     margin-left: 1rem;
 }
 .CR-Intra {
-    background-image: url(../media/DJI_0021.png);
+    background-image: url("../media/DJI_0021.png");
     background-repeat: no-repeat;
 	background-size: cover;
     height: 100vh;
 }
 .CR-Intrabox {
     position: absolute;
-    top: 50%;
+    top: 11rem;
     right: 5%;
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, .7);
     border-radius: 1rem;
     padding: 3rem ;
 }
@@ -543,7 +614,7 @@ body {
 .u-xs-block { display: block; }
 
 .u-area-icon {
-    background-image: url(../img/m2.png);
+    background-image: url("../img/m2.png");
     background-repeat: no-repeat;
 	background-size: contain;
     width: 2.3rem;
@@ -551,7 +622,7 @@ body {
     text-indent: -9999px;
 }
 .u-rooms-icon {
-    background-image: url(../img/hab.png);
+    background-image: url("../img/hab.png");
     background-repeat: no-repeat;
 	background-size: contain;
     width: 2.3rem;
@@ -559,7 +630,7 @@ body {
     text-indent: -9999px;
 }
 .u-bath-icon {
-    background-image: url(../img/ban.png);
+    background-image: url("../img/ban.png");
     background-repeat: no-repeat;
 	background-size: contain;
     width: 2.3rem;
@@ -574,6 +645,51 @@ body {
 .u-bold { font-weight: bold;}
 
 .u-text-center { text-align: left;}
+
+.hidden-screen {
+    display: none;
+}
+
+#map {
+    height: 400px;
+    background-color: grey;
+    margin: 0 auto 1rem;
+}
+
+.ubic {
+    margin: 0 auto;
+}
+
+.button-box {
+    margin: 0 auto;
+}
+
+.button-box ul {
+    list-style: none;
+}
+
+.button-box ul li {
+    margin: 1rem 0;
+}
+
+.print {
+    color: #333;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
 @media screen and (min-width: 30em){ 
     .u-sm-none { display: none; }
 
@@ -581,7 +697,7 @@ body {
 }
 
 @media screen and (min-width: 48em){ 
-    .CR-HomeBanner { top: 85%;}
+    .CR-HomeBanner { top: 80%;}
     
     .u-md-none { display: none; }
 
@@ -594,16 +710,16 @@ body {
         height: auto; 
         background-image: none;
     }
-
-    .CR-HomeFilter { top:45%; }
     
     .CR-HomeBanner {
-        top: 80%;
+        top: 75%;
         text-align: left;
     }
-    .CR-ServiceImg {
-        max-height: 70vh;
-    }
+   .CR-ServiceDots {
+    left: 50%;
+}
+
+
     .u-lg-none { display: none; }
 
     .u-lg-block { display: block; }
@@ -611,9 +727,17 @@ body {
 
 @media screen and (min-width: 106em) {
     .CR-HomeBackground { 
-        margin-top: -15rem;
         height: auto; 
         background-image: none;
+    }
+
+    .CR-HomeBackground-video {
+        margin-top: -11rem;
+    }
+
+    .CR-HomeFilter {
+        top: 22rem;
+        text-align: left;
     }
 
 }

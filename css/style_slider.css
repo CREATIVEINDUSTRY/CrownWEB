@@ -1,7 +1,41 @@
 .mySlides {
     display: none;
 }
+.CR-ServiceImg1 {
+   margin: 0 auto;
+   height: 50vh;
+  background-image: url("../img/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
 
+.CR-ServiceImg2 {
+   margin: 0 auto;
+   height: 50vh;
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.CR-ServiceImg3 {
+   margin: 0 auto;
+   height: 50vh;
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.CR-ServiceImg4 {
+   margin: 0 auto;
+   height: 50vh;
+  background-image: url("../img/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* Next & previous buttons */
 .Arrow-right, .Arrow-left {
   cursor: pointer;
@@ -34,7 +68,7 @@
 
 /* The dots/bullets/indicators */
 .Dots {
-  left:45%;
+  left:20%;
 }
 .Dots-img div {
   cursor:pointer;
@@ -84,4 +118,36 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+@media screen and (min-width: 48em){ 
+  .CR-ServiceImg1 {
+    height: 50vh;
+  }
+  .CR-ServiceImg2 {
+    height: 50vh;
+  }
+  .CR-ServiceImg3 {
+    height: 50vh;
+  }
+  .CR-ServiceImg4 {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 64em){ 
+  .CR-ServiceImg1 {
+    height: 75vh;
+  }
+  .CR-ServiceImg2 {
+    height: 75vh;
+  }
+  .CR-ServiceImg3 {
+    height: 75vh;
+    background-position: center -2rem;
+  }
+  .CR-ServiceImg4 {
+    height: 75vh;
+  }
 }

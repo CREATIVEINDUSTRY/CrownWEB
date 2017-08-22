@@ -59,7 +59,64 @@
     font-weight: lighter;
 }
 
+.CR-Contact-link:hover {
+	color: #CB9E2C;
+}
+
+.CR-Contact-itemV {
+	background-color: #CB9E2C;
+	color: #FFF;
+	padding: .8rem .2rem;
+	text-align: center;
+	text-decoration: none;
+	margin-top: .5rem;
+	border-radius: .5rem;
+}
+
+
+.CR-Contact-linkV {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	align-self: center;
+	font-size: .9rem;
+}
+
+.CR-Contact-linkV:hover {
+	color: #DADADA;
+}
+
 .CR-Contact-copy {
     margin: 1rem auto 0;
     text-align: center;
+}
+
+.CR-Contact-copy a {
+    color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.CR-Contact-copy a:hover {
+	font-style: italic;
+	
+}
+
+@media screen and (min-width: 30em){ 
+    
+	.CR-Contact-itemV {
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 48em){ 
+  
+
+}
+
+@media screen and (min-width: 64em) {
+		.CR-Contact-itemV {
+		height: auto;
+	}
+	
 }
