@@ -13,9 +13,11 @@
 }
 
 .CR-Filter form button {
+    cursor: pointer;
     padding: .5rem;
     background-color: #CB9E2C;
-    color: #020202;
+    color: #FFF;
+    border-radius: .3rem;
     font-weight: bold;
     border: none;
 }
