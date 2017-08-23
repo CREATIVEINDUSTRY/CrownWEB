@@ -62,9 +62,9 @@ Load the selected filter result
             echo '<h4 class="xs-w100">'.$row["title"].'</h4>';
             echo '<p class="xs-w75">'.$row["description"].'</p>';
             echo '<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">';
-            echo '<div class="xs-w75"><div class="u-area-icon"></div>'.$row["area"].'';
-            echo '<div class="xs-w75"><div class="u-rooms-icon"></div>'.$row["rooms"].'</div>';
-            echo '<div class="xs-w75"><div class="u-bath-icon"></div>'.$row["bathrooms"].'</div>';
+            echo '<div class="xs-w75"><div class="u-area-icon"></div>'.$row["area"].'m2';
+            echo '<div class="xs-w75"><div class="u-rooms-icon"></div>'.$row["rooms"].' hab.</div>';
+            echo '<div class="xs-w75"><div class="u-bath-icon"></div>'.$row["bathrooms"].' baños</div>';
             echo '</div>';
             echo '</div>';
             echo '</div>';

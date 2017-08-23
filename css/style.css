@@ -64,6 +64,7 @@ body {
 .CR-HomeBackground-video {
     width: inherit;
     height: auto;
+    
 }
 .CR-Desarollos {
     margin: 1.5rem auto;
@@ -230,7 +231,7 @@ body {
     background-repeat: no-repeat;
 	background-size: contain;
     background-position: bottom; 
-    height: 8rem;
+    height: 9rem;
     margin:  auto;
 }
 
@@ -260,7 +261,13 @@ body {
     background-position: center; 
     height: 8rem;
     margin:  auto;
-
+}
+.CR-Inversion-content h3 {
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    color: #808080;
+    margin: .3rem auto;
 }
 .CR-Inversion-content  p {
     text-align: left;
@@ -637,6 +644,51 @@ body {
 .u-bold { font-weight: bold;}
 
 .u-text-center { text-align: left;}
+
+.hidden-screen {
+    display: none;
+}
+
+#map {
+    height: 400px;
+    background-color: grey;
+    margin: 0 auto 1rem;
+}
+
+.ubic {
+    margin: 0 auto;
+}
+
+.button-box {
+    margin: 0 auto;
+}
+
+.button-box ul {
+    list-style: none;
+}
+
+.button-box ul li {
+    margin: 1rem 0;
+}
+
+.print {
+    color: #333;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contact {
+    padding: 1rem;
+    background-color: #CB9E2C;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
 @media screen and (min-width: 30em){ 
     .u-sm-none { display: none; }
 

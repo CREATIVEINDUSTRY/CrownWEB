@@ -1,0 +1,98 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      color: #000;
+    }
+
+    .hidden-print {
+        display: none;
+    }
+
+    .CR-head {
+        display: block;
+        color: #000;
+        margin: auto;
+    }
+
+    .CR-head .logo {
+        height: 1.5rem;
+    }
+
+    .u-margin-top {
+        margin-top: -1rem;
+    }
+
+    .CR-Description-box h2 {
+        font-size: 1.2rem;
+    }
+
+
+
+    .CR-Description-slides {
+        width: 70%;
+        height: 20rem;
+    }
+
+    .CR-Description-img {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .Dots-img {
+        width: 28%;
+    }
+
+    .Dots-img div {
+        width: 47%;
+    }
+
+    .Thumbnails {
+        height: 5rem;
+        opacity: 1;
+    }
+
+    .CR-Description-boxTitle {
+        width: 100%;
+    }
+
+
+    .overflow h2 {
+        font-size: .9rem;
+    }
+
+    .CR-Desarollo-content {
+        width: 50%;
+        align-content: flex-start;
+    }
+
+    .ubic {
+        width: 45%;
+    }
+
+    #map {
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .Contacto {
+        display: block;
+        width: 100%;
+    }
+
+    .Contacto p {
+        font-size: .8rem;
+    }
+    
+    .Contacto span {
+        font-weight: bold;
+    }
+
+    .CR-ServiceLine {
+        display: block;
+    }
+
+
+}

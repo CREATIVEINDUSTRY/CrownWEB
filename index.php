@@ -15,9 +15,9 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
     <link rel="stylesheet" href="./css/my_framework.css">
     <link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/style_slider.css">
+	<link rel="stylesheet" href="./css/modal_index.css">
 	<link rel="stylesheet" href="./css/footer.css">
-
-
+	
 </head>
 <body>
  <header class="CR-Header container-fluid">
@@ -38,7 +38,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 <!-- Menu de Navegación -->
 	<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
 			<h1 class="CR-Logo lg-w20">
-				<a href="/" class="CR-Logo-link xs-flex">Logo</a>
+				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
 			<span class="CR-Panel-button">
 				<button class="hamburger  hamburger--elastic" type="button">
@@ -51,7 +51,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="/" class="CR-Menu-link">Inicio</a>
+						<a href="index.php" class="CR-Menu-link">Inicio</a>
 					</li>
 					<li class="CR-Menu-item">
 						<a href="servicios.php" class="CR-Menu-link">Servicios</a>
@@ -100,7 +100,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				<button class="xs-w50">Buscar</button>
 			</form>
 		</div>
-		
+	
 		
 		<div class="CR-HomeBanner  xs-w100 xs-ac-center">
             <div class="container">
@@ -121,101 +121,94 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
         <h2 class="xs-w100">Oportunidades de Inversión</h2>
 
 		<div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
-				<div class="xs-w100 lg-w60">
-            		<div class="CR-Inversion-Life  xs-w100"></div>
-				</div>
+			<div class="xs-w100 lg-w60">
+            	<div class="CR-Inversion-Life  xs-w100"></div>
+			</div>
 					
-				<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-around xs-ac-center;">
-					<div class="CR-Inversion-boxTitle xs-w100 lg-w90 xs-as-center">
+			<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-around xs-ac-center">
+				<div class="CR-Inversion-boxTitle xs-w100 lg-w90 xs-as-center">
 					<h2 class="xs-w100">Life by Bosque Real</h2>
 					<h6 class="xs-w90">Magníficos Lotes Residenciales</h6> <h5 class="xs-w85">desde 300 m2 hasta 800 m2</h5>
-					</div>
-					<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
+				</div>
+				<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
             		<div class="CR-Inversion-LifeLogo  xs-w100"></div>
 				</div>
-
 				<div class="CR-Inversion-alertLife xs-w100">Include Everything In Your Life</div>
-
-				<a href="https://youtu.be/myqN_iqdt4E" class="Video xs-w45" target="_black"><i class="fa fa-video-camera fa-2x"></i></a>
-				
-
+				<a href="https://www.youtube.com/watch?v=myqN_iqdt4E&feature=youtu.be" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
 				<a href="http://lifebosquereal.com/" class="xs-w45" target="_black">Saber Más</a>
-				</div>
+			</div>
 		</div>
 
 		<div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
-				<div class="xs-w100 lg-w60">
-            		<div class="CR-Inversion-Dolmen  xs-w100"></div>
-				
-				</div>
-					
-				<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
-					<div class="CR-Inversion-boxTitle xs-w100 lg-w90 xs-as-center">
+			<div class="xs-w100 lg-w60">
+            	<div class="CR-Inversion-Dolmen  xs-w100"></div>
+			</div>
+			<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between  lg-order--1">
+				<div class="CR-Inversion-boxTitle xs-w100 lg-w90 xs-as-center">
 					<h2 class="xs-w100">Dolmen</h2>
-					<h3 class="xs-w85">Proyecto de Corporativo &</h3> <h4 class="xs-w85">Residencial</h4>
-					</div>
-					<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
+					<h3 class="xs-w85">Proyecto Corporativo &</h3> <h4 class="xs-w85">Residencial</h4>
+				</div>
+				<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
             		<div class="CR-Inversion-DolmenLogo  xs-w100"></div>
 				</div>
-
-					<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir!</div>
-				
-				<a href="https://youtu.be/yYvo75eQhX0" class="Video xs-w45" target="_black"><i class="fa fa-video-camera fa-2x"></i></a>
+				<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir!</div>
+				<a href="https://www.youtube.com/watch?v=yYvo75eQhX0&feature=youtu.be" class="Video xs-w45" role="button"><i class="fa fa-video-camera fa-2x"></i></a>
 				<a href="contacto.html" class="xs-w45">Saber Más</a>
-				</div>
 			</div>
+		</div>
 			
-           <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
-				<div class="xs-w100 lg-w60">
-            		<div class="CR-Inversion-Orun  xs-w100"></div>
-					<div class="CR-Inversion-alert xs-w100">Ultimos Departamentos!</div>
-				</div>
-					
-				<div class="CR-Inversion-content xs-100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center;">
-					<div class="CR-Inversion-boxTitle xs-w100 lg-w100 xs-as-center">
+        <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap  xs-ai-flex-end">
+			<div class="xs-w100 lg-w60">
+            	<div class="CR-Inversion-Orun  xs-w100"></div>
+				<div class="CR-Inversion-alert xs-w100">Ultimos Departamentos!</div>
+			</div>
+			<div class="CR-Inversion-content xs-100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center">
+				<div class="CR-Inversion-boxTitle xs-w100 lg-w100 xs-as-center">
 					<h2 class="xs-w100">OrúnPalace</h2>
-					<h3 class="xs-w100">Un estilo de vida</h3>
-						<h4 class="xs-w100"> hecho a tu medida!</h4>
-					</div>
-					<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
+				</div>
+				<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
             		<div class="CR-Inversion-OrunLogo  xs-w100"></div>
 				</div>
-				
-				
-				<p class="xs-w85">Departamentos desde 209m2</p>
-				<p class="xs-w75"><span>Financiamiento Express</span></p>
-				
-				<a href="http://www.orunpalace.com/"  target="_black" class="xs-w90">Saber Más</a>
+				<h3 class="xs-w85">¡Un estilo de vida hecho a tu medida!</h3>
+				<p class="xs-w75"><span>Departamentos desde 209m2</span></p>
+				<div class="CR-Inversion-alertAgor  xs-w100">Financiamiento Express</div>
+				<a href="https://www.youtube.com/watch?v=wB4aHyWpJc4" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
+				<a href="http://www.orunpalace.com/"  target="_black" class="xs-w45">Saber Más</a>
 				</div>
 			</div>
 
-			 <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
-				
-					
-				<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between lg-order-1">
-					<div class="CR-Inversion-boxTitle xs-w100 lg-w100 xs-as-center">
+		<div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap">
+			<div class="CR-Inversion-content xs-w100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between lg-order-1">
+				<div class="CR-Inversion-boxTitle xs-w100 lg-w100 xs-as-center">
 					<h2 class="xs-w100">Agor <span>Interlomas</span></h2>
-					</div>
-					<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
+				</div>
+				<div class="CR-Inversion-img xs-w90 lg-w50 xs-order--1">
             		<div class="CR-Inversion-AgorLogo  xs-w100"></div>
 				</div>
-				
-				
 				<p class="xs-w85">Departamentos desde 175m2</p>
 				<p class="xs-w75"><span>Opciones de Financiamiento</span></p>
 				<div class="CR-Inversion-alertAgor  xs-w100">Últimas oportunidades!</div>
-				<a href="contacto.html" class="xs-w90">Saber Más</a>
-				</div>
-
-				<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
-            		<div class="CR-Inversion-Agor xs-w100"></div>
-					
-				</div>
+				<a href="https://www.youtube.com/watch?v=DQRp_1YPGBE" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
+				<a href="contacto.html" class="xs-w45">Saber Más</a>
 			</div>
+			<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
+            	<div class="CR-Inversion-Agor xs-w100"></div>
+			</div>
+		</div>
 
 		</section>
 	</article>
 
+<!-- Video / Generic Modal -->
+<div class="modal fadde " id="mediaModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-body">
+      <!-- content dynamically inserted -->
+    </div>
+  </div>
+</div>
+</div>
 	
 <!-- footer -->
 	<footer class="CR-Contact container-fluid" id="contacto">
@@ -227,54 +220,31 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 						<a href="https://www.facebook.com/CROWNbrbr" class="CR-Contact-rslink xs-w20 fa fa-facebook fa-2x" target="_black"></a>
 					</li>
 					<li class="CR-Contact-rsitem xs-w10 lg-w5">
+						
 						<a href="https://www.youtube.com/channel/UCJCcmUnOO1bQ3IxU3l0AsmQ" class="CR-Contact-rslink xs-w20 fa fa-youtube-play fa-2x" target="_black"></a>
 					</li>
 				</ul>
 			</nav>
 		</div>
-		<div class="CR-Contact-box container xs-flex xs-flex-wrap xs-jc-space-around">
-			<div class="CR-Contact-logo xs-w90  md-w35 lg-w25 " href="index.php"></div>  
+		<div class="CR-Contact-box container xs-flex xs-flex-wrap xs-jc-space-around xs-ai-center">
+			<div class="CR-Contact-logo xs-w90  sm-w25 md-w25 " href="index.php"></div>  
+
+
 <!-- Menu Footer -->
-			<nav class="CR-Contact-nav xs-w90 md-w60 lg-w73 xs-flex xs-flex-wrap xs-jc-space-between">
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100">Tipo de Propiedad
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100 ">
-								<a href="propiedades.php?operationF=1" class="CR-Contact-link xs-w20" >Venta</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?operationF=2" class="CR-Contact-link xs-w20">Renta</a>
-							</li>
-						</ul>
+			<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
+				<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
+					<li class="CR-Contact-itemV xs-w100 sm-flex">
+						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
 					</li>
 				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100 ">Propiedades en Venta
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?typeF=1" class="CR-Contact-link xs-w20">Casa</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?typeF=2" class="CR-Contact-link xs-w20">Departamentos</a>
-							</li>
-						</ul> 
-					</li>
-				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100">Zonas Destacadas
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100">
-								<a href="propiedades.php?locationF=4" class="CR-Contact-link xs-w20">Zona 1</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 ">
-								<a href="propiedades.php?locationF=6" class="CR-Contact-link xs-w20">Zona 2</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-itemV xs-w100 ">
+				<ul class="CR-Contact-listItem xs-w90 sm-w30">
+					<li class="CR-Contact-itemV xs-w100 sm-flex">
 						<a href="contacto.php" class="CR-Contact-linkV xs-w100">¿Quieres vender tu propiedad?</a>
+					</li>
+				</ul>
+				<ul class="CR-Contact-listItem xs-w90 sm-w30">
+					<li class="CR-Contact-itemV xs-w100 sm-flex">
+						<a href="app.php" class="CR-Contact-linkV xs-w100">¡Descarga nuestra App!</a>
 					</li>
 				</ul>
 			</nav> 
@@ -287,6 +257,9 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 		
 	</footer>
 
-	 <script src="./js/navigation.js"></script>
+	<script src="./js/navigation.js"></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+	<script src="./js/index.js"></script>
 </body>
 </html>

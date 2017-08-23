@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Crown Bienes Raices - Propiedades</title>
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
-ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
+ESPECIALIZADA EN BOSQUE REAL CON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
     <link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,138 +16,17 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 	<link rel="stylesheet" href="./css/filter.css">
 	<link rel="stylesheet" href="./css/footer.css">
 	<link rel="stylesheet" href="./css/modal_box.css">
+	<link rel="stylesheet" href="./css/formularios-desc.css">
+	<link rel="stylesheet" media="print" href="./css/print.css">
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/css/swiper.min.css">
-    <style>
-    
-.row > .column {
-  padding: 0 8px;
-}
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
-.modalA {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* Modal Content */
-.modal-contentA {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-/* The Close Button */
-.closeA {
-  color: white;
-  position: absolute;
-  top: 10%;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.closeA:hover,
-.closeA:focus {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlidesA {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prevA,
-.nextA {
-  cursor: pointer;
-  position: absolute;
-  top: 60%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.nextA {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prevA:hover,
-.nextA:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertextA {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.caption-containerA {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
-
-img.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
-    
-    </style>
 
 </head>
 <body>
-<header class="CR-Header container-fluid">
+<header class="CR-Header container-fluid hidden-print">
 <!-- Menu Redes Sociales -->
 			<nav class="CR-MenuRS xs-w100">
 				<ul class="CR-Menu-listItemRS xs-w90 xs-flex xs-jc-flex-end xs-ai-center">
@@ -165,9 +44,9 @@ img.hover-shadow {
 <!-- Menu de Navegación -->
 	<section class="CR-Header-container container  xs-w100 lg-flex lg-flex-wrap">
 			<h1 class="CR-Logo lg-w20">
-				<a href="/" class="CR-Logo-link xs-flex">Logo</a>
+				<a href="index.php" class="CR-Logo-link xs-flex">Logo</a>
 			</h1>
-			<span class="CR-Panel-button">
+			<span class="CR-Panel-button hidden-print">
 				<button class="hamburger  hamburger--elastic" type="button">
 			    <span class="hamburger-box">
 				<span class="hamburger-inner"></span>
@@ -178,7 +57,7 @@ img.hover-shadow {
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
 					<li class="CR-Menu-item">
-						<a href="/" class="CR-Menu-link">Inicio</a>
+						<a href="index.php" class="CR-Menu-link">Inicio</a>
 					</li>
 					<li class="CR-Menu-item">
 						<a href="servicios.php" class="CR-Menu-link">Servicios</a>
@@ -201,11 +80,14 @@ img.hover-shadow {
 
 		</section>
 	</header>
-
+	<div class="CR-head xs-flex xs-flex-wrap hidden-screen xs-w90">
+		<a href="index.php" class="logo xs-w35"><img src="./img/head.png" alt="" class="xs-w100"></a>
+</div>
 <main class="CR-Main container u-margin-top xs-w100 xs-flex xs-flex-wrap">
+	
 <!-- Aside Filter -->
     <div class="xs-w100 xs-flex xs-flex-wrap">
-    <aside class="CR-Filter xs-w90 md-w32 lg-w25">
+    <aside class="CR-Filter xs-w90 md-w32 lg-w25 hidden-print">
         
 			<form method="POST" action="propiedades.php" class="xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">
 				<select name="" id="" placeholder="Localizacion" class="xs-w90">
@@ -229,7 +111,7 @@ img.hover-shadow {
 
     </aside>
 <!--Description -->
-	<article class="CR-Description xs-w90 md-w65 lg-w73 md-flex md-flex-wrap">
+	<article class="CR-Description xs-w90 md-w65 lg-w73 xs-flex xs-flex-wrap">
                 
 				<?php 
                         include 'itemSetter.php'; 
@@ -241,74 +123,52 @@ img.hover-shadow {
 </main>
 	
 <!-- footer -->
-	<footer class="CR-Contact container-fluid" id="contacto">
-		<!-- redes sociales -->
-		<div class="CR-Contact-rs xs-w90">
-				<nav class="xs-w100">
-				<ul class="CR-Contact-rslistItem xs-w90 xs-flex xs-jc-flex-end">
-					<li class="CR-Contact-rsitem xs-w10 lg-w5">
-						<a href="https://www.facebook.com/CROWNbrbr" class="CR-Contact-rslink xs-w20 fa fa-facebook fa-2x" target="_black"></a>
-					</li>
-					<li class="CR-Contact-rsitem xs-w10 lg-w5">
-						<a href="https://www.youtube.com/channel/UCJCcmUnOO1bQ3IxU3l0AsmQ" class="CR-Contact-rslink xs-w20 fa fa-youtube-play fa-2x" target="_black"></a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<div class="CR-Contact-box container xs-flex xs-flex-wrap xs-jc-space-around">
-			<div class="CR-Contact-logo xs-w90  md-w35 lg-w25"></div>  
-<!-- Menu Footer -->
-			<nav class="CR-Contact-nav xs-w90 md-w60 lg-w73 xs-flex xs-flex-wrap xs-jc-space-between">
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100">Tipo de Propiedad
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100 ">
-								<a href="propiedades.php?operationF=1" class="CR-Contact-link xs-w20" >Venta</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?operationF=2" class="CR-Contact-link xs-w20">Renta</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100 ">Propiedades en Venta
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?typeF=1" class="CR-Contact-link xs-w20">Casa</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 lg-w5">
-								<a href="propiedades.php?typeF=2" class="CR-Contact-link xs-w20">Departamentos</a>
-							</li>
-						</ul> 
-					</li>
-				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-item xs-w100">Zonas Destacadas
-						<ul class="CR-Contact-listItem">
-							<li class="CR-Contact-item xs-w100">
-								<a href="propiedades.php?locationF=4" class="CR-Contact-link xs-w20">Zona 1</a>
-							</li>
-							<li class="CR-Contact-item xs-w100 ">
-								<a href="propiedades.php?locationF=6" class="CR-Contact-link xs-w20">Zona 2</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-				<ul class="CR-Contact-listItem xs-w45 lg-w23">
-					<li class="CR-Contact-itemV xs-w100 ">
-						<a href="contacto.php" class="CR-Contact-linkV xs-w100">¿Quieres vender tu propiedad?</a>
-					</li>
-				</ul>
-			</nav> 
-		</div>	
+<footer class="CR-Contact container-fluid hidden-print" id="contacto">
+<!-- redes sociales -->
+<div class="CR-Contact-rs xs-w90">
+		<nav class="xs-w100">
+		<ul class="CR-Contact-rslistItem xs-w90 xs-flex xs-jc-flex-end">
+			<li class="CR-Contact-rsitem xs-w10 lg-w5">
+				<a href="https://www.facebook.com/CROWNbrbr" class="CR-Contact-rslink xs-w20 fa fa-facebook fa-2x" target="_black"></a>
+			</li>
+			<li class="CR-Contact-rsitem xs-w10 lg-w5">
+				
+				<a href="https://www.youtube.com/channel/UCJCcmUnOO1bQ3IxU3l0AsmQ" class="CR-Contact-rslink xs-w20 fa fa-youtube-play fa-2x" target="_black"></a>
+			</li>
+		</ul>
+	</nav>
+</div>
+<div class="CR-Contact-box container xs-flex xs-flex-wrap xs-jc-space-around xs-ai-center">
+	<div class="CR-Contact-logo xs-w90  sm-w25 md-w25 " href="index.php"></div>  
 
-			
-		<div class="CR-Contact-copy">
-			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
-		</div>
-		
-	</footer>
+
+<!-- Menu Footer -->
+		<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
+			<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
+				<li class="CR-Contact-itemV xs-w100 sm-flex">
+					<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
+				</li>
+			</ul>
+			<ul class="CR-Contact-listItem xs-w90 sm-w30">
+				<li class="CR-Contact-itemV xs-w100 sm-flex">
+					<a href="contacto.php" class="CR-Contact-linkV xs-w100">¿Quieres vender tu propiedad?</a>
+				</li>
+			</ul>
+			<ul class="CR-Contact-listItem xs-w90 sm-w30">
+				<li class="CR-Contact-itemV xs-w100 sm-flex">
+					<a href="app.php" class="CR-Contact-linkV xs-w100">¡Descarga nuestra App!</a>
+				</li>
+			</ul>
+		</nav> 
+</div>	
+
+	
+<div class="CR-Contact-copy">
+	<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
+</div>
+
+</footer>
+
 	
      <!-- Initialize Swiper -->
     <script>
@@ -367,7 +227,11 @@ img.hover-shadow {
         });     
     </script>
 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.1.2/js/swiper.min.js"></script>
-	 <script src="./js/navigation.js"></script>
-     <script src="./js/slider_descrip.js"></script>
+	<script src="./js/navigation.js"></script>
+	<script src="./js/slider_descrip.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="./js/assets/vender/intl-tel-input/js/intlTelInput.min.js"></script>
+    <script src="./js/assets/js/contact-form.js"></script>
 </body>
 </html>
