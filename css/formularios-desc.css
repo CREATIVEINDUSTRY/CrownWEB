@@ -4,17 +4,11 @@
 }
 
 .CR-Form form {
-    background-color: rgba(255, 255, 255, 1);
-    margin: -1rem auto;
-    padding: 1.5rem  1rem;
-    border-radius: 1rem;
-    box-shadow: 1px 1px 7px #808080;
-    margin-bottom: 1rem;
+    margin: 0 auto;
 }
 
 .CR-Form-text {
     margin: 0 auto;
-
 }
 
 .CR-Form-text h2 {
@@ -39,13 +33,12 @@
 }
 
 .CR-Form-input{
-    margin: .5rem auto;
-    padding: .74rem;
+    padding: .5rem;
     border: thin solid #CB9E2C;
-    border-radius: .5rem;
 }
 .CR-Form-img {
     margin: auto;
+    height: 2rem;
 } 
 
 
@@ -53,12 +46,10 @@
     margin: 1rem auto;
 }
 
-.button {
-    margin: auto;
+.button, .button:active, .button:visited {
     padding: .5rem;
     background-color: #CB9E2C;
     color: #FFF;
-    border-radius: .3rem;
     font-weight: bold;
     border: none;
     text-decoration: none;
@@ -66,7 +57,6 @@
 }
 
 .button-refresh {
-    margin: .5rem 1rem 0;
     padding: .5rem;
     background-color: #CB9E2C;
     color: #FFF;
@@ -79,10 +69,4 @@
 
 .help-block {
     color: #FF0000;
-}
-
-@media screen and (min-width: 48em){ 
-    .button {
-    margin: 0 0 0 2rem;
-    }
 }
