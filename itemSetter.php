@@ -21,8 +21,12 @@
             if ($result->num_rows > 0) {
                 $counter = 1;
                 while($rowImage = $result->fetch_assoc()) {
-                    echo '<img src="'.$rowImage["urlString"].'" alt="" onclick="openModal();currentSlide('.$counter.')" class="mySlides fade CR-Description-img xs-w100 mySlides">';
-                    $counter = $counter + 1;
+                    if ($counter == 1) {
+                        echo '<iframe width="420" height="315" src="https://www.youtube.com/embed/2fR05mriZPc" class="mySlides fade CR-Description-img xs-w100 mySlides"> </iframe>';
+                    } else {
+                        echo '<img src="'.$rowImage["urlString"].'" alt="" onclick="openModal();currentSlide('.$counter.')" class="mySlides fade CR-Description-img xs-w100 mySlides">';
+                    }
+                    $counter = $counter + 1;    
                 }
                 echo '<button class="Arrow-left fa fa-arrow-circle-left fa-2x" onclick=" plusDivs(-1)">';
                 echo '</button>';
@@ -70,7 +74,7 @@
             echo '</div> ';
             
             
-            echo '<div class="CR-Description-boxTitle xs-w90"> $ '.number_format($row["price"], 2).'.00 </div>';
+            echo '<div class="CR-Description-boxTitle xs-w90"> $ '.number_format($row["price"], 2).' </div>';
             echo '<div class="CR-Desarollo-content xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">';
             echo '<h4 class="xs-w100">'.$row["title"].' </h4>';
             echo '<p class="xs-w75">'.$row["description"].'</p>';
