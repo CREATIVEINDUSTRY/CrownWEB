@@ -1,18 +1,21 @@
 
 .CR-Form {
-    margin: 1rem auto;
+    margin: 0 auto;
 }
 
 .CR-Form form {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .CR-Form-text {
-    margin: 0 auto;
+    margin: 0;
+    height: 1.2rem;
 }
 
 .CR-Form-text h2 {
     font-size: 1.2rem;
+    margin: 0;
+    line-height: 1.2rem;
 }
 .CR-Form-text p {
     margin: 2rem 1rem;
@@ -33,15 +36,15 @@
 }
 
 .CR-Form-input{
-    padding: .5rem;
+    padding: .25rem;
     border: thin solid #CB9E2C;
+    font-family: "Ubuntu";
 }
+
 .CR-Form-img {
     margin: auto;
     height: 2rem;
 } 
-
-
 .CR-Form-button {
     margin: 1rem auto;
 }
@@ -69,4 +72,9 @@
 
 .help-block {
     color: #FF0000;
+}
+
+.pdf_descarga {
+    height: 6.5rem;
+    background-color: #FFF;
 }
