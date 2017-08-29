@@ -128,23 +128,23 @@
 
                 <form role="form" id="feedbackForm" class="xs-w85 md-w100">   
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="NOMBRE*"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="NOMBRE"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su nombre.</span>
                     </div>
 
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="apellido" name="apellido" placeholder="APELLIDO*"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="apellido" name="apellido" placeholder="APELLIDO"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su apellido.</span>
                     </div>
 
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="phone" name="phone" placeholder="TELÉFONO*">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="phone" name="phone" placeholder="TELÉFONO">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su teléfono.</span>
                     </div>
     
         
                     <div class="xs-w100  form-group  xs-flex xs-flex-wrap">
-                        <input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="EMAIL*" >
+                        <input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="EMAIL" >
                         <span class="help-block xs-w100" style="display: none;">Por favor, introduzca una dirección de correo electrónico válida.</span>
                     </div>
         
@@ -164,6 +164,9 @@
                     </div>
                     
                     <button type="submit" id="feedbackSubmit" class=" button xs-w100 "  data-loading-text="Enviando..." >Enviar</button>
+                </form>
+                <div class="pdf_descarga xs-w100"></div>
+                
             </article> 
                 <div class="Contacto xs-w100 hidden-screen xs-flex xs-flex-wrap ">
                 <p>¿Desea más información de nuestros servicios? Mándenos un correo con sus datos para referirlo con un de nuestros asesores. <br>
