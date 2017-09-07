@@ -78,3 +78,15 @@
     height: 6.5rem;
     background-color: #FFF;
 }
+
+@media screen and (min-width: 48em) {
+.CR-Form form {
+    margin-top: 1.5rem;
+}
+}
+
+@media screen and (min-width: 64em) {
+.CR-Form form {
+    margin-top: 0;
+}
+}
