@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Crown Bienes Raices</title>
+    <title>Crown Bienes Raíces</title>
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
-ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
+ESPECIALIZADA EN BOSQUE REAL CON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -85,59 +85,23 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		   
     <form role="form" id="feedbackForm" class="container xs-w100 lg-w85">
 		<div class="xs-w90  form-group">
-			<input type="text" name="nombre" title="Tu nombre" placeholder="Escribe tu nombre y apellido"  class="CR-Form-input form-control xs-w100" required>
+			<input type="text" name="nombre" title="Tu nombre" placeholder="Nombre"  class="CR-Form-input form-control xs-w100" required>
 			<span class="help-block xs-w100" style="display: none;">Por favor, escriba su nombre.</span>
 		</div>
 		<div class="xs-w90 form-group">
-			<input type="email" name="email" title="Tu email" placeholder="Escribe tu email" pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}" class="CR-Form-input form-control xs-w100"  required>
+			<input type="email" name="email" title="Tu email" placeholder="Email" pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}" class="CR-Form-input form-control xs-w100"  required>
 			<span class="help-block xs-w100" style="display: none;">Por favor, introduzca una dirección de correo electrónico válida.</span>
 		</div>
 		<div class="xs-w90 form-group">
-			<input  type="text" placeholder="Teléfono" required name="phone" pattern=".{10,}" class="CR-Form-input form-control xs-w100"><span class="help-block xs-w100" style="display: none;">Por favor, introduzca un telefono válido.</span>
+			<input  type="text" placeholder="Teléfono" required name="phone" pattern=".{10,}" class="CR-Form-input form-control xs-w100"><span class="help-block xs-w100" style="display: none;">Por favor, introduzca un teléfono válido.</span>
 		</div>
+		
 		<div class="xs-w90 form-group">
-			<select name="Estado" class="CR-Form-input form-control xs-w100">
-				<option value="Aguascalientes">Aguascalientes</option>
-				<option value="Baja California">Baja California </option>
-				<option value="Baja California Sur">Baja California Sur </option>
-				<option value="Campeche">Campeche </option>
-				<option value="Chiapas">Chiapas </option>
-				<option value="Chihuahua">Chihuahua </option>
-				<option value="Coahuila">Coahuila </option>
-				<option value="Colima">Colima </option>
-				<option value="Distrito Federal">Distrito Federal</option>
-				<option value="Durango">Durango </option>
-				<option value="Estado de México">Estado de México </option>
-				<option value="Guanajuato">Guanajuato </option>
-				<option value="Guerrero">Guerrero </option>
-				<option value="Hidalgo">Hidalgo </option>
-				<option value="Jalisco">Jalisco </option>
-				<option value="Michoacán">Michoacán </option>
-				<option value="Morelos">Morelos </option>
-				<option value="Nayarit">Nayarit </option>
-				<option value="Nuevo León">Nuevo León </option>
-				<option value="Oaxaca">Oaxaca </option>
-				<option value="Puebla">Puebla </option>
-				<option value="Querétaro">Querétaro </option>
-				<option value="Quintana Roo">Quintana Roo </option>
-				<option value="San Luis Potosí">San Luis Potosí </option>
-				<option value="Sinaloa">Sinaloa </option>
-				<option value="Sonora">Sonora </option>
-				<option value="Tabasco">Tabasco </option>
-				<option value="Tamaulipas">Tamaulipas </option>
-				<option value="Tlaxcala">Tlaxcala </option>
-				<option value="Veracruz">Veracruz </option>
-				<option value="Yucatán">Yucatán </option>
-				<option value="Zacatecas">Zacatecas</option>
-			</select>
-			<span class="help-block xs-w100" style="display: none;">Por favor, introduzca una localidad válida.</span>
-		</div>
-		<div class="xs-w90 form-group">
-			<input type="text" name="vender/comprar" title="Quiero vender o comprar un inmueble" placeholder="Quiero vender o comprar un inmueble" class="CR-Form-input form-control xs-w100" required>
+			<input type="text" name="asunto" title="Quiero vender o comprar un inmueble" placeholder="Asunto" class="CR-Form-input form-control xs-w100" required>
 			<span class="help-block xs-w100" style="display: none;">Por favor, introduzca el motivo por el que nos contacta.</span>
 		</div>
 		<div class="xs-w90 form-group">
-			<textarea name="comentarios" title="Tus comentarios" placeholder="Escribe tus comentarios" rows="7" class="CR-Form-input form-control xs-w100" required></textarea>
+			<textarea name="comentarios" title="Tus comentarios" placeholder="Mensaje" rows="7" class="CR-Form-input form-control xs-w100" required></textarea>
 			<span class="help-block xs-w100" style="display: none;">Por favor, introduzca un mensaje.</span>
 		</div>
 
@@ -146,14 +110,15 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 				<a href="#" onclick="document.getElementById('captcha').src = './img/library/vender/securimage/securimage_show.php?' + Math.random(); return false" class="button-refresh xs-w25 xs-w20 xs-as-flex-start"><i class="fa fa-refresh fa-2x"></i></a>
 		</div>
 		<div class="xs-w90 form-group xs-flex xs-flex-wrap" style="margin-top: 10px;" >
-            	<input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Por favor ingrese el código que aparece en el cuadro." />
+            	<input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Código que aparece en el cuadro." />
             	<span class="help-block xs-w100" style="display: none;">Por favor introduce el código que aparece en la imagen.</span>
 		</div>
 		
 			<button type="submit" id="feedbackSubmit" class=" button xs-w100 md-w45 "  data-loading-text="Enviando..." >Enviar</button>
 		
 	</form>
-    </article>
+	</article>
+	
 <!-- mapa -->
 		<div class="xs-w100 lg-w40">
         <h2 class="container xs-w100">Nuestra Ubicación</h2>
@@ -205,7 +170,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
 				<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
 					<li class="CR-Contact-itemV xs-w100 sm-flex">
-						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
+						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">¡Contáctanos!</a>
 					</li>
 				</ul>
 				<ul class="CR-Contact-listItem xs-w90 sm-w30">
@@ -223,7 +188,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 
 			
 		<div class="CR-Contact-copy">
-			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
+			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raíces</p>
 		</div>
 		
 	</footer>

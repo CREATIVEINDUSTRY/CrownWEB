@@ -120,31 +120,31 @@
                   </div>
                 </div>
               
-                <div id="map" class="xs-w100 lg-w65"></div>
-                <article class="CR-Form Service container xs-w100 lg-w30 xs-flex xs-flex-wrap xs-jc-space-between hidden-print">
+                <div id="map" class="xs-w100 md-w65"></div>
+                <article class="CR-Form Service container xs-w100 md-w30 xs-flex xs-flex-wrap xs-jc-space-between hidden-print">
                 <div class="CR-Form-text xs-w95">
                     <h2>Deseo más información</h2>
                 </div>
 
                 <form role="form" id="feedbackForm" class="xs-w85 md-w100">   
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="NOMBRE"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="Nombre"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su nombre.</span>
                     </div>
 
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="apellido" name="apellido" placeholder="APELLIDO"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="apellido" name="apellido" placeholder="Apellido"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su apellido.</span>
                     </div>
 
                     <div class="xs-w100  form-group xs-flex xs-flex-wrap">
-                        <input type="text" class="CR-Form-input form-control xs-w100" id="phone" name="phone" placeholder="TELÉFONO">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="phone" name="phone" placeholder="Teléfono">
                         <span class="help-block xs-w100" style="display: none;">Por favor, escriba su teléfono.</span>
                     </div>
     
         
                     <div class="xs-w100  form-group  xs-flex xs-flex-wrap">
-                        <input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="EMAIL" >
+                        <input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="Email" >
                         <span class="help-block xs-w100" style="display: none;">Por favor, introduzca una dirección de correo electrónico válida.</span>
                     </div>
         
@@ -159,8 +159,8 @@
                     </div>
         
                     <div class="xs-w100 form-group xs-flex xs-flex-wrap" style="margin-top: 10px;" >
-                        <input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Por favor ingrese el código que aparece en el cuadro." />
-                        <span class="help-block xs-w100" style="display: none;">Código que aparece en la imagen</span>
+                        <input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Código que aparece en la imagen" />
+                        <span class="help-block xs-w100" style="display: none;">Por favor ingrese el código que aparece en la imagen</span>
                     </div>
                     
                     <button type="submit" id="feedbackSubmit" class=" button xs-w100 "  data-loading-text="Enviando..." >Enviar</button>
@@ -170,7 +170,7 @@
             </article> 
                 <div class="Contacto xs-w100 hidden-screen xs-flex xs-flex-wrap ">
                 <p>¿Desea más información de nuestros servicios? Mándenos un correo con sus datos para referirlo con un de nuestros asesores. <br>
-                <span>contacto@crownbienesraices.com</span><br>
+                <span>ventas@crownbienesraices.com</span><br>
                 Agradecemos su preferencia, en Crown Bienes Raíces, estamos para servirle.<br> 
                 Línea de Soporte: <br>
                 <span>9015 3623</span><br>

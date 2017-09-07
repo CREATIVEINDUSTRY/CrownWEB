@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Crown Bienes Raices</title>
+    <title>Crown Bienes Raíces</title>
 
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
 ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmobiliario">
@@ -135,7 +135,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				</div>
 				<div class="CR-Inversion-alertLife xs-w100">Include Everything In Your Life</div>
 				<a href="https://www.youtube.com/watch?v=myqN_iqdt4E&feature=youtu.be" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
-				<a href="http://lifebosquereal.com/" class="xs-w45" target="_black">Saber Más</a>
+				<a href="./contacto.php" class="xs-w45">Saber Más</a>
 			</div>
 		</div>
 
@@ -153,14 +153,14 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				</div>
 				<div class="CR-Inversion-alertAgor xs-w100">Es tu oportunidad de Invertir!</div>
 				<a href="https://www.youtube.com/watch?v=yYvo75eQhX0&feature=youtu.be" class="Video xs-w45" role="button"><i class="fa fa-video-camera fa-2x"></i></a>
-				<a href="contacto.html" class="xs-w45">Saber Más</a>
+				<a href="contacto.php" class="xs-w45">Saber Más</a>
 			</div>
 		</div>
 			
         <div class="CR-Inversion-box  xs-w100 xs-flex xs-flex-wrap  xs-ai-flex-end">
 			<div class="xs-w100 lg-w60">
             	<div class="CR-Inversion-Orun  xs-w100"></div>
-				<div class="CR-Inversion-alert xs-w100">Ultimos Departamentos!</div>
+				<div class="CR-Inversion-alert xs-w100">Últimos Departamentos!</div>
 			</div>
 			<div class="CR-Inversion-content xs-100 lg-w40 xs-flex xs-flex-wrap xs-jc-space-between xs-ac-center">
 				<div class="CR-Inversion-boxTitle xs-w100 lg-w100 xs-as-center">
@@ -173,7 +173,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				<p class="xs-w75"><span>Departamentos desde 209m2</span></p>
 				<div class="CR-Inversion-alertAgor  xs-w100">Financiamiento Express</div>
 				<a href="https://www.youtube.com/watch?v=wB4aHyWpJc4" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
-				<a href="http://www.orunpalace.com/"  target="_black" class="xs-w45">Saber Más</a>
+				<a href="./contacto.php"  class="xs-w45">Saber Más</a>
 				</div>
 			</div>
 
@@ -189,7 +189,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 				<p class="xs-w75"><span>Opciones de Financiamiento</span></p>
 				<div class="CR-Inversion-alertAgor  xs-w100">Últimas oportunidades!</div>
 				<a href="https://www.youtube.com/watch?v=DQRp_1YPGBE" role="button" class="Video xs-w45"><i class="fa fa-video-camera fa-2x"></i></a>
-				<a href="contacto.html" class="xs-w45">Saber Más</a>
+				<a href="./contacto.php" class="xs-w45">Saber Más</a>
 			</div>
 			<div class="xs-w100 lg-w60 xs-order--1 lg-order-2">
             	<div class="CR-Inversion-Agor xs-w100"></div>
@@ -234,7 +234,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 			<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
 				<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
 					<li class="CR-Contact-itemV xs-w100 sm-flex">
-						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
+						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">¡Contáctanos!</a>
 					</li>
 				</ul>
 				<ul class="CR-Contact-listItem xs-w90 sm-w30">
@@ -252,7 +252,7 @@ ESPECIALIZADA EN BOSQUE REAL con Más de 25 años de experiencia en el ramo inmo
 
 			
 		<div class="CR-Contact-copy">
-			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
+			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raíces</p>
 		</div>
 		
 	</footer>
