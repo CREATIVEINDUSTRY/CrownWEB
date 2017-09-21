@@ -3,9 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Crown Bienes Raices</title>
+    <title>Crown Bienes Raíces</title>
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
-ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
+ESPECIALIZADA EN BOSQUE REAL CON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -51,9 +51,6 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
                     <li class="CR-Menu-item">
-						<a href="index.php" class="CR-Menu-link">Inicio</a>
-					</li>
-					<li class="CR-Menu-item">
 						<a href="index.php" class="CR-Menu-link">Inicio</a>
 					</li>
 					<li class="CR-Menu-item">
@@ -107,7 +104,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		<div class="CR-Fondo container-fluid">
 			<div class="CR-ServiciosBanner container xs-w90 xs-flex xs-flex-wrap xs-ai-center xs-jc-space-between lg-jc-space-around">
 				<div class="xs-w100 sm-w20">
-					<img  clas="xs-w100" src="./img/logo-01.png" alt="">
+					<img  class="xs-w100" src="./img/logo-01.png" alt="">
 				</div>
 				<div class="xs-w100 sm-w65 lg-w80">
 					<h4> Primera y única inmobiliaria especializada en Bosque Real</h4>
@@ -177,7 +174,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 					<li>Proyecto arquitectónico</li>
 					<li>Proyecto estructural</li>
 					<li>Proyecto de instalaciones (hidráulico-sanitaria, gas, eléctrica, telefonía, televisión e instalaciones especiales)</li>
-					<li>Memorias técnicodescriptivas</li>
+					<li>Memorias técnico-descriptivas</li>
 					<li>Presupuesto y programación de obra</li>
 				</ul>
 			</div>
@@ -197,7 +194,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			</div>
  		</div>
 
-		<h2>Gestoria de Permisos & Licencias</h2>
+		<h2>Gestoría de Permisos & Licencias</h2>
         <div class="CR-ServiceLine"></div>
  		<div class="CR-ServiciosBox xs-w90 xs-flex xs-flex-wrap">
 			<div class="CR-ServiciosImg xs-w100 md-w38">
@@ -228,7 +225,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 						<li>Elaboración de contratos, ya sea de Compraventa, arrendamiento, fideicomiso, o cualquier otro que pudiera ser necesario.</li>
 						<li>Asesoría y elaboración de contratos de Fideicomiso inmobiliario con el fin de brindar tranquilidad a los adquirentes de productos inmobiliarios.</li>
 						<li>Elaboración y asesoría en materia de Condominios, desde la elaboración de la Memoria descriptiva, reglamento de Administración y Mantenimiento, Tabla de Valores e indivisos, etc.</li>
-						<li>Asistencia a la o las Asambleas de Condóminos en nuestro carácter de asesor, ya sea del promotor o de algún o algún grupo de condóminos.</li>
+						<li>Asistencia a la o las Asambleas de Condominios en nuestro carácter de asesor, ya sea del promotor o de algún o algún grupo de condominios.</li>
 						<li>Asesoría corporativa en general.</li>
 						<li>Tramites y asesorías ante Notarios Públicos.</li>
 					</ul>
@@ -250,21 +247,21 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Cuatro Puntos</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Loma Real</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Campiña</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Bosque Del Silencio</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Bosque del Silencio</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Highland</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Del Bosque</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real del Bosque</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">El Mirador</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">El Secreto</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Cañada</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Torres De La Arboleda</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Torres de la Arboleda</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Puerta Real</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">El Ducal</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real Del Márques</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Vista Del Lago</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real del Marqués</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Vista del Lago</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Cúspide</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Vista</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Punta Horizonte</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real De La Cumbre</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real de la Cumbre</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Sayabes</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Paloma</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">OrúnPalace</p>
@@ -274,12 +271,12 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Centro Comercial El Trípode</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Del Campo</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Moraleja</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Reserva
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Bosque De Cartagena</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Reserva</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Bosque de Cartagena</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Green 22</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Puerta Del Sol</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Puerta del Sol</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30" id="contacto">Dolmen</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Amapolas Y Jacarandas<br> <span>(Segunda Etapa)</span></p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Amapolas y Jacarandas<br> <span>(Segunda Etapa)</span></p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Life by Bosque Real<br>  <span>(Segunda Etapa)</span></p>
 		</div>
 	</div>
@@ -294,7 +291,9 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<h2>¡Contáctanos!</h2>
 			<div class="CR-ServiceLine"></div>
 			<div class="xs-w95">
-				<p>¿Desea más información de nuestros servicios? Mándenos un correo con sus datos para referirlo con un de nuestros asesores. <br><br>
+				<p>¿Desea más información de nuestros servicios? Mándenos un correo con sus datos para referirlo con un de nuestros asesores. 
+				<br>
+				<a href="mailto:ventas@crownbienesraices.com" class="u-mail">ventas@crownbienesraices.com</a><br><br>
 				Agradecemos su preferencia, en Crown Bienes Raíces, estamos para servirle.<br> <br>
 				Línea de Soporte: <br>
 				<span>9015 3623</span>
@@ -305,22 +304,22 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 
 		<form role="form" id="feedbackForm" class="xs-w95 lg-w55">   
 			<div class="xs-w90  form-group xs-flex xs-flex-wrap">
-				<input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="Introduzca su nombre*"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+				<input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="Nombre"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
               	<span class="help-block xs-w100" style="display: none;">Por favor, escriba su nombre.</span>
 			</div>
 
 			<div class="xs-w90  form-group  xs-flex xs-flex-wrap">
-				<input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="Introduzca su correo electrónico*" >
+				<input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="Email" >
 				<span class="help-block xs-w100" style="display: none;">Por favor, introduzca una dirección de correo electrónico válida.</span>
             </div>
              
 			<div class="xs-w90 form-group xs-flex xs-flex-wrap">
-				<input name="reason" class="CR-Form-input form-control xs-w100" placeholder="Introduzca su asunto*"/>
+				<input name="reason" class="CR-Form-input form-control xs-w100" placeholder="Asunto"/>
 				<span class="help-block xs-w100" style="display: none;">Por favor, introduzca el motivo por el que nos contacta.</span>
 			</div>
 
 			 <div class="xs-w90 form-group">
-                <textarea class="CR-Form-input form-control xs-w100" id="message" name="message" placeholder="Introduzca su mensaje*"  rows="7" required ></textarea> 
+                <textarea class="CR-Form-input form-control xs-w100" id="message" name="message" placeholder="Mensaje"  rows="7" required ></textarea> 
               	<span class="help-block xs-w100" style="display: none;">Por favor, introduzca un mensaje.</span>
 			</div>
 
@@ -330,7 +329,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			</div>
 
             <div class="xs-w90 form-group xs-flex xs-flex-wrap" style="margin-top: 10px;" >
-            	<input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Por favor ingrese el código que aparece en el cuadro." />
+            	<input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Código que aparece en el cuadro" />
             	<span class="help-block xs-w100" style="display: none;">Por favor introduce el código que aparece en la imagen.</span>
 			</div>
 			
@@ -364,7 +363,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
 				<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
 					<li class="CR-Contact-itemV xs-w100 sm-flex">
-						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
+						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">¡Contáctanos!</a>
 					</li>
 				</ul>
 				<ul class="CR-Contact-listItem xs-w90 sm-w30">
@@ -382,11 +381,11 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 
 			
 		<div class="CR-Contact-copy">
-			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
+			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raíces</p>
 		</div>
 		
 	</footer>
-<!-- scropt -->
+<!-- script -->
 	<script src="./js/navigation.js"></script>
 	<script src="./js/slider_service.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

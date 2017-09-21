@@ -4,9 +4,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Crown Bienes Raices</title>
+    <title>Crown Bienes Raíces</title>
     <meta name="description" content="PRIMER Y ÚNICA INMOBILIARIA
-ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
+ESPECIALIZADA EN BOSQUE REAL CON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOBILIARIO">
 	<link rel="shortcut icon" type="image/x-icon" href="./img/crown.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.7.0/hamburgers.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,9 +50,6 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 		<article class="CR-Panel xs-w100 lg-w75">
 			<nav class="CR-Menu xs-w100">
 				<ul class="CR-Menu-listItem">
-                    <li class="CR-Menu-item">
-						<a href="index.php" class="CR-Menu-link">Inicio</a>
-					</li>
 					<li class="CR-Menu-item">
 						<a href="index.php" class="CR-Menu-link">Inicio</a>
 					</li>
@@ -109,7 +106,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<nav class="CR-Contact-nav xs-w90 sm-w73 md-w73 xs-flex xs-flex-wrap xs-jc-space-between xs-ai-center">
 				<ul class="CR-Contact-listItem xs-w90 sm-w30 ">
 					<li class="CR-Contact-itemV xs-w100 sm-flex">
-						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">Contáctanos!</a>
+						<a href="servicios.php#contacto" class="CR-Contact-linkV xs-w100">¡Contáctanos!</a>
 					</li>
 				</ul>
 				<ul class="CR-Contact-listItem xs-w90 sm-w30">
@@ -127,7 +124,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 
 			
 		<div class="CR-Contact-copy">
-			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raices</p>
+			<p class="copy">Desarrollado por <a href="http://www.360.ci" target="_black">Creative Industry</a>.<br> &copy; 2017. Crown Bienes Raíces</p>
 		</div>
 		
 	</footer>

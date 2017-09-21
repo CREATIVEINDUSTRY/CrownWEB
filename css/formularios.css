@@ -33,7 +33,7 @@
     color: #333;
 } 
 
-.form-group {
+.form-group, .form-group textarea {
     margin: auto;
     background-color: transparent;
     font-family: "Ubuntu";
