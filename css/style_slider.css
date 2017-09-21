@@ -70,11 +70,17 @@
 .Dots {
   left:20%;
 }
+
+.Dots-img {
+  margin-top: .5rem;
+}
+
+
 .Dots-img div {
   cursor:pointer;
-  margin: .5rem 0;
-  align-self: center;
 }
+
+
 .Thumbnails {
   height: 7rem;
   opacity: .7;

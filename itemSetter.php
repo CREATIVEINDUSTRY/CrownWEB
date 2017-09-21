@@ -10,9 +10,9 @@
         // output data of each row
         while($row = $result->fetch_assoc()) {
             
-            echo '<div class="CR-Description-box  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between">';
+            echo '<div class="CR-Description-box  xs-w90 xs-flex xs-flex-wrap xs-jc-space-between ">';
             echo '<h2 class="xs-w85">'.$row["title"].'</h2>  <a href="javascript:window.print();"  class="print xs-w15 hidden-print"><i class="fa fa-print fa-2x"></i></a> ' ;
-            echo '<div class="CR-Description-slides xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">';
+            echo '<div class="CR-Description-slides xs-w100 xs-flex xs-flex-wrap xs-jc-space-between hidden-print">';
 
             $sql = 'SELECT * FROM Images WHERE itemID = '.$row["itemID"].'';
             $result = $GLOBALS['conection']->query($sql);
@@ -31,7 +31,7 @@
                 echo '<button  class="Arrow-right fa fa-arrow-circle-right fa-2x hidden-print" onclick=" plusDivs(1)">';
                 echo '</button>';
                 echo '</div>';
-                echo '<div class="Dots-img xs-w100 xs-flex xs-flex-wrap xs-jc-space-between">';
+                echo '<div class="Dots-img xs-w100 xs-flex xs-flex-wrap xs-jc-space-around">';
 
                 $sql = 'SELECT * FROM Images WHERE itemID = '.$row["itemID"].'';
                 $result = $GLOBALS['conection']->query($sql);
@@ -77,10 +77,9 @@
             echo '<h4 class="xs-w100">'.$row["title"].' </h4>';
             echo '<p class="xs-w75">'.$row["description"].'</p>';
             echo '<div class="CR-Icons xs-w20 xs-flex xs-flex-wrap">';
-            echo '<div class="ic xs-w90 xs-flex xs-flex-wrap">'.$row["area"].'<div class="u-area-icon"></div>';
+            echo '<div class="ic xs-w90 xs-flex xs-flex-wrap">'.$row["area"].'<div class="u-area-icon"></div></div>';
             echo '<div class="ic xs-w90 xs-flex xs-flex-wrap">'.$row["rooms"].'<div class="u-rooms-icon"></div></div>';
             echo '<div class="ic xs-w90 xs-flex xs-flex-wrap">'.$row["bathrooms"].'<div class="u-bath-icon"></div></div>';
-            echo '</div>';
             echo '</div>';
             echo '</div>';
             
@@ -112,6 +111,7 @@
             
             
             <div class="ubic xs-flex xs-flex-wrap xs-w100 xs-jc-space-between">
+<<<<<<< HEAD
                 <div class="overflow xs-w100">
                      <div class="section-heading-outer m-b-15">
                         <div class="col-lg-12 text-center">
@@ -179,6 +179,73 @@
                     </p>
                     </div>
         </div>
+=======
+            <div class="overflow xs-w100">
+                 <div class="section-heading-outer m-b-15">
+                    <div class="col-lg-12 text-center">
+                       <h2 class="section-heading xs-w100">Ubicación</h2>
+                    </div>
+                  </div>
+                </div>
+              
+                <div id="map" class="xs-w100 lg-w65"></div>
+                <article class="CR-Form Service container xs-w100 lg-w30 xs-flex xs-flex-wrap xs-jc-space-between hidden-print">
+                <div class="CR-Form-text xs-w95">
+                    <h2>Deseo más información</h2>
+                </div>
+
+                <form role="form" id="feedbackForm" class="xs-w85 md-w100">   
+                    <div class="xs-w100  form-group xs-flex xs-flex-wrap">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="name" name="name" placeholder="NOMBRE"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <span class="help-block xs-w100" style="display: none;">Por favor, escriba su nombre.</span>
+                    </div>
+
+                    <div class="xs-w100  form-group xs-flex xs-flex-wrap">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="apellido" name="apellido" placeholder="APELLIDO"  pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+">
+                        <span class="help-block xs-w100" style="display: none;">Por favor, escriba su apellido.</span>
+                    </div>
+
+                    <div class="xs-w100  form-group xs-flex xs-flex-wrap">
+                        <input type="text" class="CR-Form-input form-control xs-w100" id="phone" name="phone" placeholder="TELÉFONO">
+                        <span class="help-block xs-w100" style="display: none;">Por favor, escriba su teléfono.</span>
+                    </div>
+    
+        
+                    <div class="xs-w100  form-group  xs-flex xs-flex-wrap">
+                        <input type="email" class="CR-Form-input form-control xs-w100" id="email" name="email" placeholder="EMAIL" >
+                        <span class="help-block xs-w100" style="display: none;">Por favor, introduzca una dirección de correo electrónico válida.</span>
+                    </div>
+        
+                     <div class="xs-w100 form-group">
+                        <textarea class="CR-Form-input form-control xs-w100" id="message" name="message" placeholder="Estoy interesado en esta propiedad y quiero recibir más información. Muchas gracias."  rows="4" required ></textarea> 
+                          <span class="help-block xs-w100" style="display: none;">Por favor, introduzca un mensaje.</span>
+                    </div>
+        
+                    <div class="CR-Form-img xs-w100 xs-flex md-flex-wrap">
+                        <img class="xs-w30" id="captcha" src="./img/library/vender/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                        <a href="#" onclick="document.getElementById("captcha").src = "./img/library/vender/securimage/securimage_show.php?" + Math.random(); return false" class="button-refresh xs-w25 xs-w20 xs-as-flex-start"><i class="fa fa-refresh "></i></a>
+                    </div>
+        
+                    <div class="xs-w100 form-group xs-flex xs-flex-wrap" style="margin-top: 10px;" >
+                        <input type="text" class="CR-Form-input form-control xs-w100" name="captcha_code" id="captcha_code" placeholder="Por favor ingrese el código que aparece en el cuadro." />
+                        <span class="help-block xs-w100" style="display: none;">Código que aparece en la imagen</span>
+                    </div>
+                    
+                    <button type="submit" id="feedbackSubmit" class=" button xs-w100 "  data-loading-text="Enviando..." >Enviar</button>
+                </form>
+                <div class="pdf_descarga xs-w100"></div>
+                
+            </article> 
+                <div class="Contacto xs-w100 hidden-screen xs-flex xs-flex-wrap ">
+                <p>¿Desea más información de nuestros servicios? Mándenos un correo con sus datos para referirlo con un de nuestros asesores. <br>
+                <span>contacto@crownbienesraices.com</span><br>
+                Agradecemos su preferencia, en Crown Bienes Raíces, estamos para servirle.<br> 
+                Línea de Soporte: <br>
+                <span>9015 3623</span><br>
+                </p>
+                </div>
+                </div>
+>>>>>>> 1d08ee028c990b610a05d2994ea0cfbff54db6ca
             
             
             ';

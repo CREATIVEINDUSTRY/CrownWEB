@@ -24,16 +24,14 @@
         margin-top: -1rem;
     }
 
+    .CR-Description-box {
+        width: 100%;
+    }
+
     .CR-Description-box h2 {
         font-size: 1.2rem;
     }
 
-
-
-    .CR-Description-slides {
-        width: 70%;
-        height: 20rem;
-    }
 
     .CR-Description-img {
         width: 100%;
@@ -41,17 +39,22 @@
     }
 
     .Dots-img {
-        width: 28%;
+        width: 100%;
     }
 
+
     .Dots-img div {
-        width: 47%;
+        width: 24%;
+        margin: 0 !important;
     }
 
     .Thumbnails {
-        height: 5rem;
+        width: 100%;
+        height: 6rem;
         opacity: 1;
     }
+
+
 
     .CR-Description-boxTitle {
         width: 100%;
@@ -63,23 +66,34 @@
     }
 
     .CR-Desarollo-content {
-        width: 50%;
+        width: 100% ;
         align-content: flex-start;
     }
 
+    .CR-Desarollo-content p {
+        width: 75%;
+    }
+
+    .CR-Icons {
+        width: 20%
+    }
+
     .ubic {
-        width: 45%;
+        margin-top: -2.5rem;
+        width: 100%;
     }
 
     #map {
-        width: 100%;
-        height: 200px;
+        height:280px;
+        width:65%;
     }
 
 
     .Contacto {
         display: block;
-        width: 100%;
+        width: 30%;
+        align-self: flex-end;
+        margin-bottom: 1rem;
     }
 
     .Contacto p {

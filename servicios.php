@@ -259,7 +259,7 @@ ESPECIALIZADA EN BOSQUE REALCON MÁS DE 25 AÑOS DE EXPERIENCIA EN EL RAMO INMOB
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Torres De La Arboleda</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Puerta Real</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">El Ducal</p>
-			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real Del Márquez</p>
+			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Real Del Márques</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">Vista Del Lago</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Cúspide</p>
 			<p class="CR-ServiciosBoxDes List xs-w45 md-w30">La Vista</p>
